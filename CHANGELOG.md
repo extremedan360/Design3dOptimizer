@@ -9,3 +9,4 @@
 - Inspección de GLB, inventario de Blender, runner acotado y pruebas de reimportación.
 
 - Paleta runtime del cuy: materiales 13→4 y grupos 15→7, sin quitar huesos o expresiones. Selección auto/CPU/CUDA para no imponer NVIDIA.
+- Instalación global con biblioteca compartida configurable y mantenimiento de aprendizajes generales, sin mezclar archivos privados de otros proyectos.

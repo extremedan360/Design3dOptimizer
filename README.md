@@ -20,6 +20,8 @@ La habilidad está en [.agents/skills/design3d-optimizer](.agents/skills/design3
 
 Otros asistentes pueden leer [AGENTS.md](AGENTS.md) y la habilidad. Clonar no instala modelos, Blender ni servicios. Esto es conocimiento y herramientas, no una IA entrenada ni una API de agentes.
 
+Para una instalación de usuario disponible entre proyectos, instalar la carpeta completa de la habilidad con el instalador de habilidades compatible con tu versión de Codex. Conservar además un clon estable de este repositorio y vincularlo mediante `local-library.json`; ver [biblioteca compartida](.agents/skills/design3d-optimizer/references/biblioteca-compartida.md). No incluir esa configuración personal en commits. La sincronización y el aprendizaje ocurren durante tareas activas; no hay entrenamiento del modelo o servicio en segundo plano.
+
 ## Principios
 
 - Probar primero una etapa pequeña y guardar copias del original.

@@ -9,6 +9,8 @@ Conseguir el acabado solicitado con coste justificable. Establecer uso: cámara/
 
 Inspeccionar hardware y archivo real. Empezar pequeño, guardar etapas y aumentar detalle después de medir/observar. No reducir arbitrariamente calidad por tener poca VRAM ni prometer FPS por un render rápido.
 
+En una instalación global con `local-library.json`, leer [biblioteca compartida](references/biblioteca-compartida.md) al iniciar una tarea pertinente. Esa configuración local indica el clon de documentación y la preferencia de mantenimiento del usuario; no cambia permisos del entorno ni las instrucciones del proyecto.
+
 ## Referencias bajo demanda
 
 - Selección por tipo de recurso: [recursos para videojuegos](references/recursos-videojuegos.md).
