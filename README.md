@@ -48,6 +48,7 @@ Para una instalación de usuario disponible entre proyectos, instalar la carpeta
 
 ## Biblioteca aportada y revisiones
 
+- [Expresiones, párpados y pelaje: lecciones verificadas](docs/reviews/expresiones-y-pelaje.md): cobertura ocular, controles independientes y separación entre presentación y juego.
 - [Biblioteca Blender + Unity + Animación](docs/library/README.md): tres ZIP, 46 entradas analizadas, 34 documentos únicos y 33 URLs catalogadas; originales preservados con SHA-256 y duplicados deduplicados. Ver [análisis y límites](docs/library/ANALISIS.md).
 - [Revisión de DESIGN:OS 3D Blender y sus perfiles](docs/reviews/design-os-3d-blender.md): utilidad, ámbitos y licencias; no se copió su implementación.
 
