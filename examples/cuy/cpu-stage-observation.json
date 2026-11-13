@@ -1,0 +1,7 @@
+{
+  "stage": "model",
+  "peak_whole_gpu_mib_observed": 0,
+  "peak_blender_working_set_mib_observed": 735.7,
+  "elapsed_seconds": 17.16,
+  "note": "Periodic samples may miss peaks; GPU includes other apps. RAM sampled only on Windows."
+}

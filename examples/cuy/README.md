@@ -21,6 +21,8 @@ python examples/cuy/run.py --blender blender --stage rig
 python examples/cuy/run.py --blender blender --stage preview
 ```
 
+`--device auto` usa CUDA disponible o CPU; `--device cpu` fuerza CPU y `--device cuda` exige CUDA. No se ha medido el ejemplo completo en todas las GPU/plataformas.
+
 Cada comando realiza una sola etapa. `--output` cambia el directorio de artefactos; usar el mismo entre etapas. Los comandos posteriores requieren el anterior. El runner impone timeout y límites observados configurables; no reserva memoria ni garantiza detectar picos instantáneos. RAM se mide solo en Windows, GPU si nvidia-smi está disponible. Verificar el reporte fresco además del código de salida.
 
 ```sh
@@ -37,13 +39,13 @@ El importador puede añadir una Icosphere como visualización de huesos; verify 
 - 23 huesos: raíz, cuerpo/cabeza, cuatro patas/pies, mochila, hoja y 10 guías de pelo.
 - Shape keys Blink, OpenMouth y Smile; exportación con un clip combinado para la demostración.
 - Resortes angulares amortiguados para mochila, hoja y guías, **horneados en claves**, con amplitud limitada.
-- Agrupación para exportar: seis mallas, 15 primitivas/grupos de material, 13 materiales y un skin. No equivale a seis draw calls; los grupos de material también cuestan.
+- Agrupación para exportar: seis mallas, siete primitivas/grupos de material, cuatro materiales y un skin. Antes: 15 grupos y 13 materiales; se comparten materiales simples con colores por vértice. No equivale a seis draw calls; grupos, sombras y pases también cuestan. No se midió una mejora de FPS en motor.
 
 El GLB tiene 20.360 triángulos y unos 1,61 MiB; 21.489 vértices exportados entre primitivas. La separación de vértices por UV, color y normales explica diferencias con autoría.
 
 ## Resultados y límites
 
-La presentación 1024²/48 muestras tardó unos 9,3 s con 761 MiB de GPU total y 1.510 MiB de RAM de Blender observados. La etapa de rig/render pequeño observó 663 MiB GPU y 709 MiB RAM. Son muestras, no máximos garantizados ni coste incremental de un personaje.
+La presentación 1024²/48 muestras tardó unos 9,3 s con 761 MiB de GPU total y 1.510 MiB de RAM de Blender observados. La etapa de rig/render pequeño observó 663 MiB GPU y 677 MiB RAM. Son muestras, no máximos garantizados ni coste incremental de un personaje.
 
 Reimportación verificada: 23 huesos, pesos normalizados, ningún vértice sin peso, valores finitos, morphs y movimiento de mochila/hoja/guía/pata en estados muestreados. Ver reportes JSON y cuatro imágenes de expresiones.
 

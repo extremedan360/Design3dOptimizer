@@ -4,9 +4,9 @@ from pathlib import Path
 from mathutils import Vector
 sys.path.insert(0,str(Path(__file__).parent))
 import fur_tools as f
-args=argparse.ArgumentParser();args.add_argument('--output',required=True);args.add_argument('--stage',choices=['model','groom','rig','preview'],required=True)
+args=argparse.ArgumentParser();args.add_argument('--output',required=True);args.add_argument('--stage',choices=['model','groom','rig','preview'],required=True);args.add_argument('--device',choices=['auto','cpu','cuda'],default='auto')
 a=args.parse_args(sys.argv[sys.argv.index('--')+1:]);OUT=Path(a.output).resolve();OUT.mkdir(parents=True,exist_ok=True)
-f.OUT=OUT;random.seed(802)
+f.OUT=OUT;f.COMPUTE_MODE=a.device;random.seed(802)
 def mat(name,color,rough=.65):
     m=bpy.data.materials.new(name);bs=m.node_tree.nodes.get('Principled BSDF');bs.inputs['Base Color'].default_value=(*color,1);bs.inputs['Roughness'].default_value=rough;return m
 def coat(p):
@@ -220,6 +220,20 @@ elif a.stage=='rig':
             if abs(total-1)>1e-4:bad_weights+=1
     assert unweighted==0 and bad_weights==0
     bpy.ops.wm.save_as_mainfile(filepath=str(OUT/'10-cuy-aventurero-rig.blend'))
+    # Runtime palette: preserve colors in vertices instead of separate prop materials.
+    palette=mat('Props_paleta_vertices',(.5,.5,.5),.65)
+    node=palette.node_tree.nodes.new('ShaderNodeVertexColor');node.layer_name='COAT'
+    palette.node_tree.links.new(node.outputs['Color'],palette.node_tree.nodes.get('Principled BSDF').inputs['Base Color'])
+    for o in col.objects:
+        if o.type!='MESH' or o==cards:continue
+        names=[m.name for m in o.data.materials if m]
+        if 'Pelaje_base_normal_y_color_vertices' in names or 'Ojos' in names:continue
+        colors=[tuple(m.node_tree.nodes.get('Principled BSDF').inputs['Base Color'].default_value) for m in o.data.materials]
+        attr=o.data.color_attributes.get('COAT') or o.data.color_attributes.new(name='COAT',type='FLOAT_COLOR',domain='CORNER')
+        for face in o.data.polygons:
+            for idx in face.loop_indices:attr.data[idx].color=colors[face.material_index]
+        o.data.color_attributes.active_color=attr
+        o.data.materials.clear();o.data.materials.append(palette)
     # Preserve editable pieces in .blend; consolidate rigid skinned pieces for runtime.
     bpy.ops.object.select_all(action='DESELECT')
     rigid=[o for o in col.objects if o.type=='MESH' and o!=cards and not o.data.shape_keys]

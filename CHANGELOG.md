@@ -7,3 +7,5 @@
 - Revisión de cuatro videos y de DESIGN:OS 3D Blender, sin copiar su implementación.
 - Ejemplo reproducible de cuy con dos representaciones de pelo, rig, expresiones y resortes horneados.
 - Inspección de GLB, inventario de Blender, runner acotado y pruebas de reimportación.
+
+- Paleta runtime del cuy: materiales 13→4 y grupos 15→7, sin quitar huesos o expresiones. Selección auto/CPU/CUDA para no imponer NVIDIA.

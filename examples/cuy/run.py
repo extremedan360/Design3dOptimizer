@@ -5,6 +5,7 @@ from pathlib import Path
 def main():
     parser=argparse.ArgumentParser();parser.add_argument('--blender',default='blender')
     parser.add_argument('--stage',choices=['model','groom','rig','preview'],required=True)
+    parser.add_argument('--device',choices=['auto','cpu','cuda'],default='auto')
     parser.add_argument('--output',type=Path,default=Path('artifacts/cuy'))
     parser.add_argument('--timeout',type=float,default=180)
     parser.add_argument('--max-gpu-mib',type=int,default=3200)
@@ -13,7 +14,7 @@ def main():
     expected=out/(args.stage+'-mediciones.json')
     before=expected.stat().st_mtime_ns if expected.exists() else None
     cmd=[args.blender,'--background','--factory-startup','--disable-autoexec','--python-exit-code','2',
-         '--threads','4','--python',str(Path(__file__).with_name('generate.py')),'--','--output',str(out),'--stage',args.stage]
+         '--threads','4','--python',str(Path(__file__).with_name('generate.py')),'--','--output',str(out),'--stage',args.stage,'--device',args.device]
     smi=shutil.which('nvidia-smi');start=time.monotonic();peak_gpu=None;peak_ram=None
     creationflags=subprocess.CREATE_NO_WINDOW if os.name=='nt' else 0
     with (out/(args.stage+'.log')).open('w',encoding='utf-8') as log:

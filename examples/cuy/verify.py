@@ -1,5 +1,5 @@
 """Import the actual GLB and check skin, morphs and motion in a clean scene."""
-import bpy,sys,argparse,json,math
+import bpy,sys,argparse,json,math,hashlib
 from pathlib import Path
 from mathutils import Vector
 sys.path.insert(0,str(Path(__file__).resolve().parents[2]/'scripts'))
@@ -39,7 +39,7 @@ print('MORPH_SAMPLES',json.dumps([(x['frame'],x['morphs']) for x in samples]),fl
 assert blink>.9 and opening>.9 and smile>.9
 for bone in ('Bag','Leaf','Fur_0','Leg_Front_L'):
     assert len({tuple(sample['secondary_matrices'][bone]) for sample in samples})>1,bone
-result={'roundtrip_pass':True,'mesh_objects':len(meshes),'bones':len(rig.data.bones),'unweighted_vertices':unweighted,'non_normalized_vertices':bad,'finite_coordinates':finite,'max_blink':blink,'max_open_mouth':opening,'max_smile':smile,'samples':samples,
+result={'source_sha256':hashlib.sha256(Path(args.file).read_bytes()).hexdigest(),'roundtrip_pass':True,'mesh_objects':len(meshes),'bones':len(rig.data.bones),'unweighted_vertices':unweighted,'non_normalized_vertices':bad,'finite_coordinates':finite,'max_blink':blink,'max_open_mouth':opening,'max_smile':smile,'samples':samples,
         'scope':'Blender reimport and sampled animation; not a continuous collision/engine performance test'}
 (out/'roundtrip.json').write_text(json.dumps(result,indent=2),encoding='utf-8')
 if args.render:

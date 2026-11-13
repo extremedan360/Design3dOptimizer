@@ -18,7 +18,7 @@
       "StoppedForMemoryLimit": false
     },
     "rig": {
-      "PeakBlenderRAM_MiB": 708.8,
+      "PeakBlenderRAM_MiB": 676.9,
       "PeakWholeGPU_MiB": 663.0,
       "ExitCode": 0,
       "StoppedForMemoryLimit": false

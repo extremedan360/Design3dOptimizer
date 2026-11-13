@@ -470,5 +470,6 @@
       }
     }
   ],
-  "scope": "Blender reimport and sampled animation; not a continuous collision/engine performance test"
+  "scope": "Blender reimport and sampled animation; not a continuous collision/engine performance test",
+  "source_sha256": "f64bb553db2538e7d5457cea2af3e08e761d2e1803ddc70baf9f6f8cc87794a9"
 }

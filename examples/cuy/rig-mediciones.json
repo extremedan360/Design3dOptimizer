@@ -6,5 +6,5 @@
   "frames": 72,
   "fps": 24,
   "physics": "Damped angular springs baked into keys; no general collision solver or live engine integration",
-  "render_seconds": 1.886
+  "render_seconds": 1.819
 }

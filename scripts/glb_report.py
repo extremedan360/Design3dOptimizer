@@ -1,5 +1,5 @@
 """Inspect GLB 2 structure. Not a complete glTF conformance validator."""
-import argparse,json,struct
+import argparse,json,struct,hashlib
 from pathlib import Path
 
 def read_glb(path):
@@ -38,7 +38,7 @@ def report(path):
         animations.append({'name':anim.get('name'),'channels':len(anim.get('channels',[])),
             'duration_seconds':round(max(ends,default=0)-min(starts,default=0),4),
             'target_paths':sorted({c['target']['path'] for c in anim.get('channels',[])})})
-    return {'file':Path(path).name,'bytes':Path(path).stat().st_size,'meshes':len(doc.get('meshes',[])),
+    return {'file':Path(path).name,'sha256':hashlib.sha256(Path(path).read_bytes()).hexdigest(),'bytes':Path(path).stat().st_size,'meshes':len(doc.get('meshes',[])),
         'mesh_primitives':primitives,'exported_vertices_across_primitives':vertices,'triangles':triangles,
         'materials':len(doc.get('materials',[])),'images':len(doc.get('images',[])),
         'material_alpha_modes':[m.get('alphaMode','OPAQUE') for m in doc.get('materials',[])],

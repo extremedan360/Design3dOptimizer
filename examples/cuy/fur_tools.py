@@ -16,9 +16,15 @@ def setup():
     global scene
     scene=bpy.context.scene
     prefs=bpy.context.preferences.addons['cycles'].preferences
-    prefs.compute_device_type='CUDA'; prefs.get_devices()
-    for d in prefs.devices:d.use=d.type=='CUDA'
-    scene.cycles.device='GPU';scene.cycles.samples=32
+    compute=globals().get('COMPUTE_MODE','auto');enabled=False
+    if compute!='cpu':
+        try:
+            prefs.compute_device_type='CUDA';prefs.get_devices()
+            for d in prefs.devices:
+                d.use=d.type=='CUDA';enabled |= bool(d.use)
+        except (TypeError,ValueError,RuntimeError):enabled=False
+    if compute=='cuda' and not enabled:raise RuntimeError('CUDA requested but unavailable')
+    scene.cycles.device='GPU' if enabled else 'CPU';scene.cycles.samples=32
     scene.cycles.use_denoising=True; scene.cycles.max_bounces=4
     scene.cycles.transparent_max_bounces=12
     scene.render.simplify_subdivision=1
