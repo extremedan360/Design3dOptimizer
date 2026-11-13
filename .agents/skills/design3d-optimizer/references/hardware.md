@@ -12,4 +12,8 @@ Registrar aplicación/versión, GPU, escena, resolución y técnica. Muestrear R
 
 Código revisado: `68f2d165fdcdead669d322a86e6dc39887381354`. Trabaja con ComfyUI local/remoto. Admite argumentos extra como --lowvram, resolución 512 TRELLIS.2 y descarga de modelos entre etapas. Eso no demuestra compatibilidad con 4 GB.
 
-Documentación consultada recomienda ~8 GB VRAM para SDXL y 16 GB o más para Qwen. Bajar polígonos después de generar no reduce la memoria de inferencia. Producir en otro PC y editar/exportar localmente es una alternativa, cuya conexión también debe probarse. No se instalaron ni validaron modelos StableGen en este caso. Verificar versiones y licencias antes de distribuir recursos.
+Documentación consultada recomienda ~8 GB VRAM para SDXL y 16 GB o más para Qwen. Bajar polígonos después de generar no reduce la memoria de inferencia. Producir en otro PC y editar/exportar localmente es una alternativa, cuya conexión también debe probarse.
+
+Posteriormente se verificó TRELLIS.2 nativo de ComfyUI usando el constructor de grafo StableGen, por etapas y con GPU de 4 GB/16 GB RAM: muestreo INT8/BF16 en GPU, decodificación CPU FP32 y servidor nuevo entre fases. Máximo GPU total observado 3.095 MiB. Eso prueba ese flujo y versiones, no todo el panel StableGen, cualquier resolución ni SDXL/Qwen. Ver [procedimiento y medidas](https://github.com/extremedan360/Design3dOptimizer/blob/main/docs/reviews/stablegen-trellis2-4gb.md).
+
+Conservar perfiles y pesos SDXL si el usuario lo solicita; conservarlos en disco no exige cargarlos automáticamente. En el ensayo local, SDXL original y FP8 quedaron preservados, pero las cargas se interrumpieron por presión de RAM: no se considera un flujo SDXL completo aceptado para 4 GB. StableGen, el backend de generación 3D y SDXL para imágenes/texturas son componentes distintos. Verificar versiones y licencias antes de distribuir recursos; no publicar checkpoints por documentar un experimento.

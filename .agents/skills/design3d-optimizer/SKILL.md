@@ -9,6 +9,8 @@ Conseguir el acabado solicitado con coste justificable. Establecer uso: cámara/
 
 Inspeccionar hardware y archivo real. Empezar pequeño, guardar etapas y aumentar detalle después de medir/observar. No reducir arbitrariamente calidad por tener poca VRAM ni prometer FPS por un render rápido.
 
+Para personajes, terminar y revisar primero la base sin ropa ni complementos: anatomía, silueta, topología y movimiento. Después crear e integrar cada complemento por separado, con función y sujeción coherentes; por ejemplo, base del animal → adorno de cabeza → mochila. No usar accesorios o pelaje para esconder defectos de la base. Consultar el orden y ajuste funcional en [modelado](references/modelado.md); adaptar el orden solo si el usuario pide otra cosa.
+
 En una instalación global con `local-library.json`, leer [biblioteca compartida](references/biblioteca-compartida.md) al iniciar una tarea pertinente. Esa configuración local indica el clon de documentación y la preferencia de mantenimiento del usuario; no cambia permisos del entorno ni las instrucciones del proyecto.
 
 ## Referencias bajo demanda

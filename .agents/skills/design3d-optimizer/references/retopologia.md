@@ -11,6 +11,8 @@ Conservar high poly/materiales. Al cambiar topología, transferir o rehacer UV y
 
 LOD0 cercano; LOD1 menos geometría/tarjetas; LOD2 puede depender solo del material. Evaluar por tamaño en pantalla. Planear también sombras, física y skin. Tres archivos no implementan selección automática en motor.
 
+Una malla generada con paredes dobles o winding incoherente puede necesitar reconstrucción de volumen antes de QEM. Ocupación sin signo, cierre morfológico y marching cubes funcionaron en un ensayo documentado; pueden borrar dedos/cavidades y accesorios separados. Inspeccionar componentes y silueta antes de QuadriFlow. Cerrar solo huecos medidos y justificados: manifold no significa buen flujo facial. Ver [reparación de superficies generadas](https://github.com/extremedan360/Design3dOptimizer/blob/main/docs/reviews/reparacion-superficie-generada.md).
+
 ## Lectura crítica
 
 Una reducción «sin pérdida» de un tutorial es un resultado de ese caso. Decenas de miles de caras no implican automáticamente media hora extra de render ni RAM agotada. El tutorial Hunyuan termina con pérdida de detalles/materiales y deja la recuperación para otro video: no demuestra todo el pipeline.

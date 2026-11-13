@@ -25,6 +25,7 @@ Para una instalación de usuario disponible entre proyectos, instalar la carpeta
 ## Principios
 
 - Probar primero una etapa pequeña y guardar copias del original.
+- En personajes, revisar la base sin ropa ni complementos; después integrar cada pieza con tamaño, sujeción y función coherentes. Ejemplo: animal → adorno de cabeza → mochila.
 - Mejorar silueta y deformación con geometría; usar normales/texturas para microdetalle.
 - Separar presentación de recurso de juego: un render de hebras no demuestra el acabado ni FPS de tarjetas.
 - Medir RAM, VRAM, geometría, materiales y duración; documentar límites del muestreo.
@@ -49,6 +50,8 @@ Para una instalación de usuario disponible entre proyectos, instalar la carpeta
 ## Biblioteca aportada y revisiones
 
 - [TRELLIS.2 por etapas en 4 GB](docs/reviews/stablegen-trellis2-4gb.md): inferencia local verificada y límites de topología/calidad.
+- [Reparación de superficies generadas](docs/reviews/reparacion-superficie-generada.md): volumen sin signo, retopología, materiales y pelaje por etapas con mediciones.
+- [Materiales, complementos y exportación](docs/reviews/materiales-accesorios-y-exportacion.md): base antes de accesorios, sujeción funcional, cuero/tela, ojos, skin y límites comprobados de GLB/LOD.
 - [Expresiones, párpados y pelaje: lecciones verificadas](docs/reviews/expresiones-y-pelaje.md): cobertura ocular, controles independientes y separación entre presentación y juego.
 - [Biblioteca Blender + Unity + Animación](docs/library/README.md): tres ZIP, 46 entradas analizadas, 34 documentos únicos y 33 URLs catalogadas; originales preservados con SHA-256 y duplicados deduplicados. Ver [análisis y límites](docs/library/ANALISIS.md).
 - [Revisión de DESIGN:OS 3D Blender y sus perfiles](docs/reviews/design-os-3d-blender.md): utilidad, ámbitos y licencias; no se copió su implementación.
