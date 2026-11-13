@@ -1,0 +1,4 @@
+interface:
+  display_name: "Design3D Optimizer"
+  short_description: "Recursos 3D y animación con rendimiento medido"
+  default_prompt: "Usa $design3d-optimizer para crear un recurso de videojuego optimizado y comprobar su exportación."

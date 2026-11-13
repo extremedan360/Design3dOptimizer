@@ -1,0 +1,10 @@
+{
+  "bones": 23,
+  "fur_guides": 10,
+  "unweighted_vertices": 0,
+  "bad_weight_sums": 0,
+  "frames": 72,
+  "fps": 24,
+  "physics": "Damped angular springs baked into keys; no general collision solver or live engine integration",
+  "render_seconds": 1.886
+}

@@ -1,0 +1,452 @@
+[
+  {
+    "url": "https://docs.blender.org/api/current/",
+    "source_documents": [
+      {
+        "archive": "Biblioteca_Blender_Unity_Animaciones_Gratis.zip",
+        "document": "originals/biblioteca-3d-blender-unity-gratis-1/01_Blender/FUENTES.md"
+      },
+      {
+        "archive": "Biblioteca_Blender_Unity_Animaciones_Gratis.zip",
+        "document": "originals/biblioteca-blender-unity-animaciones-gratis/08_Animacion_para_videojuegos/00_INDICE_ANIMACION.md"
+      },
+      {
+        "archive": "Biblioteca_Blender_Unity_Animaciones_Gratis.zip",
+        "document": "originals/biblioteca-blender-unity-animaciones-gratis/08_Animacion_para_videojuegos/06_AUTOMATIZACION_PYTHON_MCP.md"
+      }
+    ],
+    "status": "Enlace extraído y tema revisado en los apuntes; página externa no verificada íntegramente en esta entrega"
+  },
+  {
+    "url": "https://docs.blender.org/manual/en/latest/",
+    "source_documents": [
+      {
+        "archive": "Documentacion_Gratis_Blender_Unity.zip",
+        "document": "originals/documentacion-gratis-blender-unity/INDICE.md"
+      },
+      {
+        "archive": "Documentacion_Gratis_Blender_Unity.zip",
+        "document": "originals/documentacion-gratis-blender-unity/01_Blender_Manual/LEEME.md"
+      },
+      {
+        "archive": "Documentacion_Gratis_Blender_Unity.zip",
+        "document": "originals/documentacion-gratis-blender-unity/01_Blender_Manual/ABRIR_RECURSO.url"
+      },
+      {
+        "archive": "Biblioteca_Blender_Unity_Animaciones_Gratis.zip",
+        "document": "originals/biblioteca-3d-blender-unity-gratis-1/INDICE.md"
+      },
+      {
+        "archive": "Biblioteca_Blender_Unity_Animaciones_Gratis.zip",
+        "document": "originals/biblioteca-3d-blender-unity-gratis-1/01_Blender/FUENTES.md"
+      }
+    ],
+    "status": "Acceso directo restringido por herramienta; índice enlazado, no manual completo leído"
+  },
+  {
+    "url": "https://docs.blender.org/manual/en/latest/addons/import_export/scene_fbx.html",
+    "source_documents": [
+      {
+        "archive": "Biblioteca_Blender_Unity_Animaciones_Gratis.zip",
+        "document": "originals/biblioteca-blender-unity-animaciones-gratis/08_Animacion_para_videojuegos/00_INDICE_ANIMACION.md"
+      },
+      {
+        "archive": "Biblioteca_Blender_Unity_Animaciones_Gratis.zip",
+        "document": "originals/biblioteca-blender-unity-animaciones-gratis/08_Animacion_para_videojuegos/03_EXPORTACION_Y_UNITY.md"
+      }
+    ],
+    "status": "Enlace extraído y tema revisado en los apuntes; página externa no verificada íntegramente en esta entrega"
+  },
+  {
+    "url": "https://docs.blender.org/manual/en/latest/animation/actions.html",
+    "source_documents": [
+      {
+        "archive": "Biblioteca_Blender_Unity_Animaciones_Gratis.zip",
+        "document": "originals/biblioteca-blender-unity-animaciones-gratis/08_Animacion_para_videojuegos/00_INDICE_ANIMACION.md"
+      }
+    ],
+    "status": "Enlace extraído y tema revisado en los apuntes; página externa no verificada íntegramente en esta entrega"
+  },
+  {
+    "url": "https://docs.blender.org/manual/en/latest/animation/armatures/",
+    "source_documents": [
+      {
+        "archive": "Biblioteca_Blender_Unity_Animaciones_Gratis.zip",
+        "document": "originals/biblioteca-3d-blender-unity-gratis-1/01_Blender/FUENTES.md"
+      }
+    ],
+    "status": "Enlace extraído y tema revisado en los apuntes; página externa no verificada íntegramente en esta entrega"
+  },
+  {
+    "url": "https://docs.blender.org/manual/en/latest/animation/armatures/index.html",
+    "source_documents": [
+      {
+        "archive": "Biblioteca_Blender_Unity_Animaciones_Gratis.zip",
+        "document": "originals/biblioteca-blender-unity-animaciones-gratis/08_Animacion_para_videojuegos/01_RIGGING_SKINNING.md"
+      },
+      {
+        "archive": "Biblioteca_Blender_Unity_Animaciones_Gratis.zip",
+        "document": "originals/biblioteca-blender-unity-animaciones-gratis/08_Animacion_para_videojuegos/00_INDICE_ANIMACION.md"
+      }
+    ],
+    "status": "Enlace extraído y tema revisado en los apuntes; página externa no verificada íntegramente en esta entrega"
+  },
+  {
+    "url": "https://docs.blender.org/manual/en/latest/animation/index.html",
+    "source_documents": [
+      {
+        "archive": "Biblioteca_Blender_Unity_Animaciones_Gratis.zip",
+        "document": "originals/biblioteca-blender-unity-animaciones-gratis/08_Animacion_para_videojuegos/00_INDICE_ANIMACION.md"
+      }
+    ],
+    "status": "Enlace extraído y tema revisado en los apuntes; página externa no verificada íntegramente en esta entrega"
+  },
+  {
+    "url": "https://docs.blender.org/manual/en/latest/animation/shape_keys/index.html",
+    "source_documents": [
+      {
+        "archive": "Biblioteca_Blender_Unity_Animaciones_Gratis.zip",
+        "document": "originals/biblioteca-blender-unity-animaciones-gratis/08_Animacion_para_videojuegos/00_INDICE_ANIMACION.md"
+      },
+      {
+        "archive": "Biblioteca_Blender_Unity_Animaciones_Gratis.zip",
+        "document": "originals/biblioteca-blender-unity-animaciones-gratis/08_Animacion_para_videojuegos/05_IK_FACIAL_Y_OPTIMIZACION.md"
+      }
+    ],
+    "status": "Enlace extraído y tema revisado en los apuntes; página externa no verificada íntegramente en esta entrega"
+  },
+  {
+    "url": "https://docs.blender.org/manual/en/latest/editors/nla/index.html",
+    "source_documents": [
+      {
+        "archive": "Biblioteca_Blender_Unity_Animaciones_Gratis.zip",
+        "document": "originals/biblioteca-blender-unity-animaciones-gratis/08_Animacion_para_videojuegos/02_CICLOS_Y_ACCIONES.md"
+      },
+      {
+        "archive": "Biblioteca_Blender_Unity_Animaciones_Gratis.zip",
+        "document": "originals/biblioteca-blender-unity-animaciones-gratis/08_Animacion_para_videojuegos/00_INDICE_ANIMACION.md"
+      }
+    ],
+    "status": "Enlace extraído y tema revisado en los apuntes; página externa no verificada íntegramente en esta entrega"
+  },
+  {
+    "url": "https://docs.blender.org/manual/en/latest/modeling/meshes/",
+    "source_documents": [
+      {
+        "archive": "Biblioteca_Blender_Unity_Animaciones_Gratis.zip",
+        "document": "originals/biblioteca-3d-blender-unity-gratis-1/01_Blender/FUENTES.md"
+      }
+    ],
+    "status": "Enlace extraído y tema revisado en los apuntes; página externa no verificada íntegramente en esta entrega"
+  },
+  {
+    "url": "https://docs.blender.org/manual/en/latest/modeling/meshes/retopology.html",
+    "source_documents": [
+      {
+        "archive": "Documentacion_Gratis_Blender_Unity.zip",
+        "document": "originals/documentacion-gratis-blender-unity/INDICE.md"
+      },
+      {
+        "archive": "Documentacion_Gratis_Blender_Unity.zip",
+        "document": "originals/documentacion-gratis-blender-unity/05_Blender_Retopologia/LEEME.md"
+      },
+      {
+        "archive": "Documentacion_Gratis_Blender_Unity.zip",
+        "document": "originals/documentacion-gratis-blender-unity/05_Blender_Retopologia/ABRIR_RECURSO.url"
+      }
+    ],
+    "status": "Acceso directo restringido; no declarar página íntegra leída"
+  },
+  {
+    "url": "https://docs.blender.org/manual/en/latest/modeling/meshes/uv/",
+    "source_documents": [
+      {
+        "archive": "Biblioteca_Blender_Unity_Animaciones_Gratis.zip",
+        "document": "originals/biblioteca-3d-blender-unity-gratis-1/01_Blender/FUENTES.md"
+      }
+    ],
+    "status": "Enlace extraído y tema revisado en los apuntes; página externa no verificada íntegramente en esta entrega"
+  },
+  {
+    "url": "https://docs.blender.org/manual/en/latest/modeling/modifiers/",
+    "source_documents": [
+      {
+        "archive": "Biblioteca_Blender_Unity_Animaciones_Gratis.zip",
+        "document": "originals/biblioteca-3d-blender-unity-gratis-1/01_Blender/FUENTES.md"
+      }
+    ],
+    "status": "Enlace extraído y tema revisado en los apuntes; página externa no verificada íntegramente en esta entrega"
+  },
+  {
+    "url": "https://docs.blender.org/manual/en/latest/sculpt_paint/sculpting/",
+    "source_documents": [
+      {
+        "archive": "Biblioteca_Blender_Unity_Animaciones_Gratis.zip",
+        "document": "originals/biblioteca-3d-blender-unity-gratis-1/01_Blender/FUENTES.md"
+      }
+    ],
+    "status": "Enlace extraído y tema revisado en los apuntes; página externa no verificada íntegramente en esta entrega"
+  },
+  {
+    "url": "https://docs.unity3d.com/Manual/",
+    "source_documents": [
+      {
+        "archive": "Biblioteca_Blender_Unity_Animaciones_Gratis.zip",
+        "document": "originals/biblioteca-3d-blender-unity-gratis-1/02_Unity/FUENTES.md"
+      }
+    ],
+    "status": "Enlace extraído y tema revisado en los apuntes; página externa no verificada íntegramente en esta entrega"
+  },
+  {
+    "url": "https://docs.unity3d.com/Manual/AnimationOverview.html",
+    "source_documents": [
+      {
+        "archive": "Biblioteca_Blender_Unity_Animaciones_Gratis.zip",
+        "document": "originals/biblioteca-blender-unity-animaciones-gratis/08_Animacion_para_videojuegos/00_INDICE_ANIMACION.md"
+      },
+      {
+        "archive": "Biblioteca_Blender_Unity_Animaciones_Gratis.zip",
+        "document": "originals/biblioteca-blender-unity-animaciones-gratis/08_Animacion_para_videojuegos/03_EXPORTACION_Y_UNITY.md"
+      }
+    ],
+    "status": "Redirección oficial detectada; consulta directa no completada; usar documentación de versión del proyecto"
+  },
+  {
+    "url": "https://docs.unity3d.com/Manual/FrameDebugger.html",
+    "source_documents": [
+      {
+        "archive": "Biblioteca_Blender_Unity_Animaciones_Gratis.zip",
+        "document": "originals/biblioteca-3d-blender-unity-gratis-1/02_Unity/FUENTES.md"
+      }
+    ],
+    "status": "Enlace extraído y tema revisado en los apuntes; página externa no verificada íntegramente en esta entrega"
+  },
+  {
+    "url": "https://docs.unity3d.com/Manual/ImportingModelFiles.html",
+    "source_documents": [
+      {
+        "archive": "Biblioteca_Blender_Unity_Animaciones_Gratis.zip",
+        "document": "originals/biblioteca-3d-blender-unity-gratis-1/02_Unity/FUENTES.md"
+      }
+    ],
+    "status": "Enlace extraído y tema revisado en los apuntes; página externa no verificada íntegramente en esta entrega"
+  },
+  {
+    "url": "https://docs.unity3d.com/Manual/LevelOfDetail.html",
+    "source_documents": [
+      {
+        "archive": "Documentacion_Gratis_Blender_Unity.zip",
+        "document": "originals/documentacion-gratis-blender-unity/INDICE.md"
+      },
+      {
+        "archive": "Documentacion_Gratis_Blender_Unity.zip",
+        "document": "originals/documentacion-gratis-blender-unity/03_Unity_LOD/LEEME.md"
+      },
+      {
+        "archive": "Documentacion_Gratis_Blender_Unity.zip",
+        "document": "originals/documentacion-gratis-blender-unity/03_Unity_LOD/ABRIR_RECURSO.url"
+      },
+      {
+        "archive": "Biblioteca_Blender_Unity_Animaciones_Gratis.zip",
+        "document": "originals/biblioteca-3d-blender-unity-gratis-1/02_Unity/FUENTES.md"
+      }
+    ],
+    "status": "Página oficial consultada; redirige a Unity 6000.6; contrastar versión del proyecto"
+  },
+  {
+    "url": "https://docs.unity3d.com/Manual/OptimizingGraphicsPerformance.html",
+    "source_documents": [
+      {
+        "archive": "Biblioteca_Blender_Unity_Animaciones_Gratis.zip",
+        "document": "originals/biblioteca-3d-blender-unity-gratis-1/02_Unity/FUENTES.md"
+      }
+    ],
+    "status": "Enlace extraído y tema revisado en los apuntes; página externa no verificada íntegramente en esta entrega"
+  },
+  {
+    "url": "https://docs.unity3d.com/Manual/Profiler.html",
+    "source_documents": [
+      {
+        "archive": "Documentacion_Gratis_Blender_Unity.zip",
+        "document": "originals/documentacion-gratis-blender-unity/INDICE.md"
+      },
+      {
+        "archive": "Documentacion_Gratis_Blender_Unity.zip",
+        "document": "originals/documentacion-gratis-blender-unity/06_Unity_Profiler/LEEME.md"
+      },
+      {
+        "archive": "Documentacion_Gratis_Blender_Unity.zip",
+        "document": "originals/documentacion-gratis-blender-unity/06_Unity_Profiler/ABRIR_RECURSO.url"
+      },
+      {
+        "archive": "Biblioteca_Blender_Unity_Animaciones_Gratis.zip",
+        "document": "originals/biblioteca-3d-blender-unity-gratis-1/02_Unity/FUENTES.md"
+      },
+      {
+        "archive": "Biblioteca_Blender_Unity_Animaciones_Gratis.zip",
+        "document": "originals/biblioteca-blender-unity-animaciones-gratis/08_Animacion_para_videojuegos/00_INDICE_ANIMACION.md"
+      },
+      {
+        "archive": "Biblioteca_Blender_Unity_Animaciones_Gratis.zip",
+        "document": "originals/biblioteca-blender-unity-animaciones-gratis/08_Animacion_para_videojuegos/05_IK_FACIAL_Y_OPTIMIZACION.md"
+      }
+    ],
+    "status": "Redirección original falló; consultado índice oficial 6000.6 y guía de plataforma objetivo"
+  },
+  {
+    "url": "https://docs.unity3d.com/Manual/RootMotion.html",
+    "source_documents": [
+      {
+        "archive": "Biblioteca_Blender_Unity_Animaciones_Gratis.zip",
+        "document": "originals/biblioteca-blender-unity-animaciones-gratis/08_Animacion_para_videojuegos/04_MECANIM_BLENDTREES_ROOTMOTION.md"
+      },
+      {
+        "archive": "Biblioteca_Blender_Unity_Animaciones_Gratis.zip",
+        "document": "originals/biblioteca-blender-unity-animaciones-gratis/08_Animacion_para_videojuegos/00_INDICE_ANIMACION.md"
+      }
+    ],
+    "status": "Redirección oficial detectada; consulta directa no completada; usar documentación de versión del proyecto"
+  },
+  {
+    "url": "https://docs.unity3d.com/Manual/class-AnimatorController.html",
+    "source_documents": [
+      {
+        "archive": "Biblioteca_Blender_Unity_Animaciones_Gratis.zip",
+        "document": "originals/biblioteca-blender-unity-animaciones-gratis/08_Animacion_para_videojuegos/04_MECANIM_BLENDTREES_ROOTMOTION.md"
+      },
+      {
+        "archive": "Biblioteca_Blender_Unity_Animaciones_Gratis.zip",
+        "document": "originals/biblioteca-blender-unity-animaciones-gratis/08_Animacion_para_videojuegos/00_INDICE_ANIMACION.md"
+      }
+    ],
+    "status": "Redirección oficial detectada; consulta directa no completada; usar documentación de versión del proyecto"
+  },
+  {
+    "url": "https://docs.unity3d.com/Manual/class-BlendTree.html",
+    "source_documents": [
+      {
+        "archive": "Biblioteca_Blender_Unity_Animaciones_Gratis.zip",
+        "document": "originals/biblioteca-blender-unity-animaciones-gratis/08_Animacion_para_videojuegos/04_MECANIM_BLENDTREES_ROOTMOTION.md"
+      },
+      {
+        "archive": "Biblioteca_Blender_Unity_Animaciones_Gratis.zip",
+        "document": "originals/biblioteca-blender-unity-animaciones-gratis/08_Animacion_para_videojuegos/00_INDICE_ANIMACION.md"
+      }
+    ],
+    "status": "Redirección oficial detectada; consulta directa no completada; usar documentación de versión del proyecto"
+  },
+  {
+    "url": "https://docs.unity3d.com/Manual/class-TextureImporter.html",
+    "source_documents": [
+      {
+        "archive": "Biblioteca_Blender_Unity_Animaciones_Gratis.zip",
+        "document": "originals/biblioteca-3d-blender-unity-gratis-1/02_Unity/FUENTES.md"
+      }
+    ],
+    "status": "Enlace extraído y tema revisado en los apuntes; página externa no verificada íntegramente en esta entrega"
+  },
+  {
+    "url": "https://docs.unity3d.com/Packages/com.unity.animation.rigging@latest",
+    "source_documents": [
+      {
+        "archive": "Biblioteca_Blender_Unity_Animaciones_Gratis.zip",
+        "document": "originals/biblioteca-blender-unity-animaciones-gratis/08_Animacion_para_videojuegos/00_INDICE_ANIMACION.md"
+      },
+      {
+        "archive": "Biblioteca_Blender_Unity_Animaciones_Gratis.zip",
+        "document": "originals/biblioteca-blender-unity-animaciones-gratis/08_Animacion_para_videojuegos/05_IK_FACIAL_Y_OPTIMIZACION.md"
+      }
+    ],
+    "status": "Redirección inspeccionada; no instalación/prueba; fijar versión compatible"
+  },
+  {
+    "url": "https://gameassetlab.me/",
+    "source_documents": [
+      {
+        "archive": "Biblioteca_Blender_Unity_Animaciones_Gratis.zip",
+        "document": "originals/biblioteca-3d-blender-unity-gratis-1/03_Cursos_y_guias/FUENTES.md"
+      }
+    ],
+    "status": "Enlace extraído y tema revisado en los apuntes; página externa no verificada íntegramente en esta entrega"
+  },
+  {
+    "url": "https://github.com/Themoyouknow13/awesome-blender-starter-suite",
+    "source_documents": [
+      {
+        "archive": "Biblioteca_Blender_Unity_Animaciones_Gratis.zip",
+        "document": "originals/biblioteca-3d-blender-unity-gratis-1/03_Cursos_y_guias/FUENTES.md"
+      }
+    ],
+    "status": "Enlace extraído y tema revisado en los apuntes; página externa no verificada íntegramente en esta entrega"
+  },
+  {
+    "url": "https://learn-blender.org/",
+    "source_documents": [
+      {
+        "archive": "Biblioteca_Blender_Unity_Animaciones_Gratis.zip",
+        "document": "originals/biblioteca-3d-blender-unity-gratis-1/03_Cursos_y_guias/FUENTES.md"
+      }
+    ],
+    "status": "Enlace extraído y tema revisado en los apuntes; página externa no verificada íntegramente en esta entrega"
+  },
+  {
+    "url": "https://learn.unity.com/",
+    "source_documents": [
+      {
+        "archive": "Biblioteca_Blender_Unity_Animaciones_Gratis.zip",
+        "document": "originals/biblioteca-blender-unity-animaciones-gratis/08_Animacion_para_videojuegos/00_INDICE_ANIMACION.md"
+      }
+    ],
+    "status": "Enlace extraído y tema revisado en los apuntes; página externa no verificada íntegramente en esta entrega"
+  },
+  {
+    "url": "https://learn.unity.com/course/3d-art-optimization-for-mobile-gaming-5474",
+    "source_documents": [
+      {
+        "archive": "Documentacion_Gratis_Blender_Unity.zip",
+        "document": "originals/documentacion-gratis-blender-unity/INDICE.md"
+      },
+      {
+        "archive": "Documentacion_Gratis_Blender_Unity.zip",
+        "document": "originals/documentacion-gratis-blender-unity/04_Unity_Optimizacion_Arte_3D/LEEME.md"
+      },
+      {
+        "archive": "Documentacion_Gratis_Blender_Unity.zip",
+        "document": "originals/documentacion-gratis-blender-unity/04_Unity_Optimizacion_Arte_3D/ABRIR_RECURSO.url"
+      },
+      {
+        "archive": "Biblioteca_Blender_Unity_Animaciones_Gratis.zip",
+        "document": "originals/biblioteca-3d-blender-unity-gratis-1/03_Cursos_y_guias/FUENTES.md"
+      }
+    ],
+    "status": "Índice y versión 2019.4 consultados; no curso completo de 10 h"
+  },
+  {
+    "url": "https://studio.blender.org/tools/artist-guide/asset-creation/modeling",
+    "source_documents": [
+      {
+        "archive": "Biblioteca_Blender_Unity_Animaciones_Gratis.zip",
+        "document": "originals/biblioteca-3d-blender-unity-gratis-1/03_Cursos_y_guias/FUENTES.md"
+      }
+    ],
+    "status": "Enlace extraído y tema revisado en los apuntes; página externa no verificada íntegramente en esta entrega"
+  },
+  {
+    "url": "https://studio.blender.org/training/blender-2-8-fundamentals/chapter/modeling/",
+    "source_documents": [
+      {
+        "archive": "Documentacion_Gratis_Blender_Unity.zip",
+        "document": "originals/documentacion-gratis-blender-unity/INDICE.md"
+      },
+      {
+        "archive": "Documentacion_Gratis_Blender_Unity.zip",
+        "document": "originals/documentacion-gratis-blender-unity/02_Blender_Fundamentals_Gratis/LEEME.md"
+      },
+      {
+        "archive": "Documentacion_Gratis_Blender_Unity.zip",
+        "document": "originals/documentacion-gratis-blender-unity/02_Blender_Fundamentals_Gratis/ABRIR_RECURSO.url"
+      }
+    ],
+    "status": "Listado oficial de lecciones Free recuperado por búsqueda; Blender 2.8, no API actual"
+  }
+]

@@ -1,0 +1,49 @@
+{
+  "file": "cuy-aventurero.glb",
+  "bytes": 1689532,
+  "meshes": 6,
+  "mesh_primitives": 15,
+  "exported_vertices_across_primitives": 21489,
+  "triangles": 20360,
+  "materials": 13,
+  "images": 2,
+  "material_alpha_modes": [
+    "OPAQUE",
+    "OPAQUE",
+    "OPAQUE",
+    "OPAQUE",
+    "OPAQUE",
+    "OPAQUE",
+    "OPAQUE",
+    "OPAQUE",
+    "OPAQUE",
+    "OPAQUE",
+    "OPAQUE",
+    "OPAQUE",
+    "MASK"
+  ],
+  "skins": 1,
+  "joint_counts": [
+    23
+  ],
+  "morph_names": [
+    "Blink",
+    "OpenMouth",
+    "Smile"
+  ],
+  "animations": [
+    {
+      "name": "Scene",
+      "channels": 73,
+      "duration_seconds": 2.9583,
+      "target_paths": [
+        "rotation",
+        "scale",
+        "translation",
+        "weights"
+      ]
+    }
+  ],
+  "cameras": 0,
+  "scope": "Structural inspection; no FPS, visual, collision or complete conformance validation"
+}

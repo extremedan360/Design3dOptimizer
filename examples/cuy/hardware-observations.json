@@ -1,0 +1,34 @@
+{
+  "date": "2026-11-12",
+  "blender": "5.2.3 LTS",
+  "gpu": "RTX 3050 Ti Laptop 4096 MiB",
+  "system_ram_gib_approx": 16,
+  "sampling": "Approximately every 0.5 s plus command overhead; whole-GPU usage, not per-asset incremental VRAM",
+  "stages": {
+    "model": {
+      "PeakBlenderRAM_MiB": 881.2,
+      "PeakWholeGPU_MiB": 691.0,
+      "ExitCode": 0,
+      "StoppedForMemoryLimit": false
+    },
+    "groom": {
+      "PeakBlenderRAM_MiB": 1510.4,
+      "PeakWholeGPU_MiB": 761.0,
+      "ExitCode": 0,
+      "StoppedForMemoryLimit": false
+    },
+    "rig": {
+      "PeakBlenderRAM_MiB": 708.8,
+      "PeakWholeGPU_MiB": 663.0,
+      "ExitCode": 0,
+      "StoppedForMemoryLimit": false
+    },
+    "preview": {
+      "PeakBlenderRAM_MiB": 580.1,
+      "PeakWholeGPU_MiB": 653.0,
+      "ExitCode": 0,
+      "StoppedForMemoryLimit": false
+    }
+  },
+  "limit": "Offline renders in this environment. No Unity/mobile/FPS or continuous collision validation."
+}

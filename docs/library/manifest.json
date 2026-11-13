@@ -1,0 +1,347 @@
+{
+  "archives": [
+    {
+      "archive": "Documentacion_Gratis_Blender_Unity.zip",
+      "sha256": "ea5315cc49dec70edc834239c775a1c7e6f9667bd1ee96b8672a393b67c63687",
+      "entries": [
+        {
+          "path": "Documentacion_Gratis_Blender_Unity/INDICE.md",
+          "bytes": 922,
+          "sha256": "c9e4328dca709c01f2df21e629d86b6f70e79618b2716b020e503cc5a0182c96",
+          "canonical": "originals/documentacion-gratis-blender-unity/INDICE.md",
+          "duplicate": false
+        },
+        {
+          "path": "Documentacion_Gratis_Blender_Unity/03_Unity_LOD/LEEME.md",
+          "bytes": 578,
+          "sha256": "dbe9db87334b9bf4b9b32de54ea6b35c66619a6fb0ea45a36b46faea09c6a2ac",
+          "canonical": "originals/documentacion-gratis-blender-unity/03_Unity_LOD/LEEME.md",
+          "duplicate": false
+        },
+        {
+          "path": "Documentacion_Gratis_Blender_Unity/03_Unity_LOD/ABRIR_RECURSO.url",
+          "bytes": 74,
+          "sha256": "348753ba358559a464eeda376fd7e9d353d51a4eb8bed64ec79208ee8f7ae86b",
+          "canonical": "originals/documentacion-gratis-blender-unity/03_Unity_LOD/ABRIR_RECURSO.url",
+          "duplicate": false
+        },
+        {
+          "path": "Documentacion_Gratis_Blender_Unity/06_Unity_Profiler/LEEME.md",
+          "bytes": 572,
+          "sha256": "14d0c306ab7ebeb60e7a27e9fa3e9583f1ac34c572fabe848d2ea4c7ecdb5c0a",
+          "canonical": "originals/documentacion-gratis-blender-unity/06_Unity_Profiler/LEEME.md",
+          "duplicate": false
+        },
+        {
+          "path": "Documentacion_Gratis_Blender_Unity/06_Unity_Profiler/ABRIR_RECURSO.url",
+          "bytes": 69,
+          "sha256": "5d03c53623cf686c57af344c58fa7efaa201fa7f0eec1380418a570b12f4296a",
+          "canonical": "originals/documentacion-gratis-blender-unity/06_Unity_Profiler/ABRIR_RECURSO.url",
+          "duplicate": false
+        },
+        {
+          "path": "Documentacion_Gratis_Blender_Unity/05_Blender_Retopologia/LEEME.md",
+          "bytes": 598,
+          "sha256": "db2ddde5c257739cf047c9307dcea474d6f75773b306ed58d7d652ea456bbd0a",
+          "canonical": "originals/documentacion-gratis-blender-unity/05_Blender_Retopologia/LEEME.md",
+          "duplicate": false
+        },
+        {
+          "path": "Documentacion_Gratis_Blender_Unity/05_Blender_Retopologia/ABRIR_RECURSO.url",
+          "bytes": 97,
+          "sha256": "b4a2b2ab8fed83c2cbd87198b3ca9faf8f0830351a9cb532cf4cc96dd75ba0eb",
+          "canonical": "originals/documentacion-gratis-blender-unity/05_Blender_Retopologia/ABRIR_RECURSO.url",
+          "duplicate": false
+        },
+        {
+          "path": "Documentacion_Gratis_Blender_Unity/02_Blender_Fundamentals_Gratis/LEEME.md",
+          "bytes": 636,
+          "sha256": "07fa125972050e6a4f86713a3e1fb0421bf30cb613f06c7f43737c32d7b0a9a8",
+          "canonical": "originals/documentacion-gratis-blender-unity/02_Blender_Fundamentals_Gratis/LEEME.md",
+          "duplicate": false
+        },
+        {
+          "path": "Documentacion_Gratis_Blender_Unity/02_Blender_Fundamentals_Gratis/ABRIR_RECURSO.url",
+          "bytes": 102,
+          "sha256": "567302142c037a57b2cdd9c7b5ff8b0a14bea982449991ea9d9ae1b5572a4737",
+          "canonical": "originals/documentacion-gratis-blender-unity/02_Blender_Fundamentals_Gratis/ABRIR_RECURSO.url",
+          "duplicate": false
+        },
+        {
+          "path": "Documentacion_Gratis_Blender_Unity/01_Blender_Manual/LEEME.md",
+          "bytes": 606,
+          "sha256": "fedb74572f8a10be77266c9f39a7118528cac2e08e042899a04d45ff44ed8bf8",
+          "canonical": "originals/documentacion-gratis-blender-unity/01_Blender_Manual/LEEME.md",
+          "duplicate": false
+        },
+        {
+          "path": "Documentacion_Gratis_Blender_Unity/01_Blender_Manual/ABRIR_RECURSO.url",
+          "bytes": 66,
+          "sha256": "afc1fefba78ba76aa8a21e511cbac44172daf6629e4869c6cad8aa774c7dad65",
+          "canonical": "originals/documentacion-gratis-blender-unity/01_Blender_Manual/ABRIR_RECURSO.url",
+          "duplicate": false
+        },
+        {
+          "path": "Documentacion_Gratis_Blender_Unity/04_Unity_Optimizacion_Arte_3D/LEEME.md",
+          "bytes": 630,
+          "sha256": "58c1a13bf546cb7a4322ffbb4a672d394e182a87305b818ab98c77a2418275d3",
+          "canonical": "originals/documentacion-gratis-blender-unity/04_Unity_Optimizacion_Arte_3D/LEEME.md",
+          "duplicate": false
+        },
+        {
+          "path": "Documentacion_Gratis_Blender_Unity/04_Unity_Optimizacion_Arte_3D/ABRIR_RECURSO.url",
+          "bytes": 97,
+          "sha256": "eb4516e8dea5c74ba7e8f425559c87a8d2739b802337d20546973455b7cace10",
+          "canonical": "originals/documentacion-gratis-blender-unity/04_Unity_Optimizacion_Arte_3D/ABRIR_RECURSO.url",
+          "duplicate": false
+        }
+      ]
+    },
+    {
+      "archive": "Biblioteca_3D_Blender_Unity_Gratis (1).zip",
+      "sha256": "dd9c0e8f09372633154a002fec520e9219e91f99efc024fa9d634a03d7767688",
+      "entries": [
+        {
+          "path": "Biblioteca_3D_Blender_Unity_Gratis/CHECKLIST_ENTREGA.md",
+          "bytes": 535,
+          "sha256": "9d9048dfcd13d2a80d49798524f5959dedc6ef9dd032352e433c102ff9961028",
+          "canonical": "originals/biblioteca-3d-blender-unity-gratis-1/CHECKLIST_ENTREGA.md",
+          "duplicate": false
+        },
+        {
+          "path": "Biblioteca_3D_Blender_Unity_Gratis/INDICE.md",
+          "bytes": 822,
+          "sha256": "3cdaaa280ad3442e45f6e6125d52b6b142328688a7bc76210f0e416351cfeaf3",
+          "canonical": "originals/biblioteca-3d-blender-unity-gratis-1/INDICE.md",
+          "duplicate": false
+        },
+        {
+          "path": "Biblioteca_3D_Blender_Unity_Gratis/01_Blender/FUENTES.md",
+          "bytes": 825,
+          "sha256": "71c167d33731fa008e1dd4bc2d4779c8bc1c2f424d7a4e45b59e1da429c7bd46",
+          "canonical": "originals/biblioteca-3d-blender-unity-gratis-1/01_Blender/FUENTES.md",
+          "duplicate": false
+        },
+        {
+          "path": "Biblioteca_3D_Blender_Unity_Gratis/03_LOD_y_colisiones/MANUAL.md",
+          "bytes": 720,
+          "sha256": "b44a7e552268f5266c924c25213a6597715ea06435fcd716c311164b3ff57a60",
+          "canonical": "originals/biblioteca-3d-blender-unity-gratis-1/03_LOD_y_colisiones/MANUAL.md",
+          "duplicate": false
+        },
+        {
+          "path": "Biblioteca_3D_Blender_Unity_Gratis/07_Automatizacion_MCP/MANUAL.md",
+          "bytes": 842,
+          "sha256": "5ced030e1af295b8f5bdb4c9ce122903a1a2de635c83cf54d33dbd5dd6e145e8",
+          "canonical": "originals/biblioteca-3d-blender-unity-gratis-1/07_Automatizacion_MCP/MANUAL.md",
+          "duplicate": false
+        },
+        {
+          "path": "Biblioteca_3D_Blender_Unity_Gratis/02_Unity/FUENTES.md",
+          "bytes": 738,
+          "sha256": "e2837b2d8ca1eb54080393b7fd1cee62b0682f04deb697b16d07603063a9cbb8",
+          "canonical": "originals/biblioteca-3d-blender-unity-gratis-1/02_Unity/FUENTES.md",
+          "duplicate": false
+        },
+        {
+          "path": "Biblioteca_3D_Blender_Unity_Gratis/04_Rigging_y_animacion/MANUAL.md",
+          "bytes": 504,
+          "sha256": "db18c28bbdef14e10d770180ec30d5ee7efe34b34e53f46b7e5632efa852c38f",
+          "canonical": "originals/biblioteca-3d-blender-unity-gratis-1/04_Rigging_y_animacion/MANUAL.md",
+          "duplicate": false
+        },
+        {
+          "path": "Biblioteca_3D_Blender_Unity_Gratis/06_Perfilado_y_optimizacion/MANUAL.md",
+          "bytes": 680,
+          "sha256": "8da05e80a2cae1d40256e9ebec319356d6b901379607d9f3c6abb529686ec5b0",
+          "canonical": "originals/biblioteca-3d-blender-unity-gratis-1/06_Perfilado_y_optimizacion/MANUAL.md",
+          "duplicate": false
+        },
+        {
+          "path": "Biblioteca_3D_Blender_Unity_Gratis/02_UV_texturas_y_baking/MANUAL.md",
+          "bytes": 930,
+          "sha256": "81f5c71830c35c3316595a9a4270bb3e93107a5caaf66ea9f71341ef6d861245",
+          "canonical": "originals/biblioteca-3d-blender-unity-gratis-1/02_UV_texturas_y_baking/MANUAL.md",
+          "duplicate": false
+        },
+        {
+          "path": "Biblioteca_3D_Blender_Unity_Gratis/05_Exportacion_Blender_Unity/MANUAL.md",
+          "bytes": 829,
+          "sha256": "557b246baa2ecf0dad37e1b075a9abdcb9417ab94ec1b6fa833d974b8de3e018",
+          "canonical": "originals/biblioteca-3d-blender-unity-gratis-1/05_Exportacion_Blender_Unity/MANUAL.md",
+          "duplicate": false
+        },
+        {
+          "path": "Biblioteca_3D_Blender_Unity_Gratis/03_Cursos_y_guias/FUENTES.md",
+          "bytes": 699,
+          "sha256": "ba46e4b54062899f03b24f051b4a4998d6e625c4d93aa35e0e7979deef746f57",
+          "canonical": "originals/biblioteca-3d-blender-unity-gratis-1/03_Cursos_y_guias/FUENTES.md",
+          "duplicate": false
+        },
+        {
+          "path": "Biblioteca_3D_Blender_Unity_Gratis/01_Fundamentos_y_topologia/MANUAL.md",
+          "bytes": 916,
+          "sha256": "4eddf3e3657de4e3ae395edd562aacbd440b53e3af6472c153ad5f03a52a3d5c",
+          "canonical": "originals/biblioteca-3d-blender-unity-gratis-1/01_Fundamentos_y_topologia/MANUAL.md",
+          "duplicate": false
+        }
+      ]
+    },
+    {
+      "archive": "Biblioteca_Blender_Unity_Animaciones_Gratis.zip",
+      "sha256": "e2f8c6b079041ceb0e3b434d29093a7eefe4aa847f9ac5f2c5db36187eab92ed",
+      "entries": [
+        {
+          "path": "Biblioteca_3D_Blender_Unity_Animacion_Gratis/CHECKLIST_ENTREGA.md",
+          "bytes": 535,
+          "sha256": "9d9048dfcd13d2a80d49798524f5959dedc6ef9dd032352e433c102ff9961028",
+          "canonical": "originals/biblioteca-3d-blender-unity-gratis-1/CHECKLIST_ENTREGA.md",
+          "duplicate": true
+        },
+        {
+          "path": "Biblioteca_3D_Blender_Unity_Animacion_Gratis/INDICE.md",
+          "bytes": 822,
+          "sha256": "3cdaaa280ad3442e45f6e6125d52b6b142328688a7bc76210f0e416351cfeaf3",
+          "canonical": "originals/biblioteca-3d-blender-unity-gratis-1/INDICE.md",
+          "duplicate": true
+        },
+        {
+          "path": "Biblioteca_3D_Blender_Unity_Animacion_Gratis/LEEME_PRIMERO.md",
+          "bytes": 288,
+          "sha256": "4142384a1117d1f2e13ae0a96e6e6a8e5d24fef7a28095563b35b09d5ed15b5f",
+          "canonical": "originals/biblioteca-blender-unity-animaciones-gratis/LEEME_PRIMERO.md",
+          "duplicate": false
+        },
+        {
+          "path": "Biblioteca_3D_Blender_Unity_Animacion_Gratis/01_Blender/FUENTES.md",
+          "bytes": 825,
+          "sha256": "71c167d33731fa008e1dd4bc2d4779c8bc1c2f424d7a4e45b59e1da429c7bd46",
+          "canonical": "originals/biblioteca-3d-blender-unity-gratis-1/01_Blender/FUENTES.md",
+          "duplicate": true
+        },
+        {
+          "path": "Biblioteca_3D_Blender_Unity_Animacion_Gratis/03_LOD_y_colisiones/MANUAL.md",
+          "bytes": 720,
+          "sha256": "b44a7e552268f5266c924c25213a6597715ea06435fcd716c311164b3ff57a60",
+          "canonical": "originals/biblioteca-3d-blender-unity-gratis-1/03_LOD_y_colisiones/MANUAL.md",
+          "duplicate": true
+        },
+        {
+          "path": "Biblioteca_3D_Blender_Unity_Animacion_Gratis/07_Automatizacion_MCP/MANUAL.md",
+          "bytes": 842,
+          "sha256": "5ced030e1af295b8f5bdb4c9ce122903a1a2de635c83cf54d33dbd5dd6e145e8",
+          "canonical": "originals/biblioteca-3d-blender-unity-gratis-1/07_Automatizacion_MCP/MANUAL.md",
+          "duplicate": true
+        },
+        {
+          "path": "Biblioteca_3D_Blender_Unity_Animacion_Gratis/02_Unity/FUENTES.md",
+          "bytes": 738,
+          "sha256": "e2837b2d8ca1eb54080393b7fd1cee62b0682f04deb697b16d07603063a9cbb8",
+          "canonical": "originals/biblioteca-3d-blender-unity-gratis-1/02_Unity/FUENTES.md",
+          "duplicate": true
+        },
+        {
+          "path": "Biblioteca_3D_Blender_Unity_Animacion_Gratis/04_Rigging_y_animacion/MANUAL.md",
+          "bytes": 504,
+          "sha256": "db18c28bbdef14e10d770180ec30d5ee7efe34b34e53f46b7e5632efa852c38f",
+          "canonical": "originals/biblioteca-3d-blender-unity-gratis-1/04_Rigging_y_animacion/MANUAL.md",
+          "duplicate": true
+        },
+        {
+          "path": "Biblioteca_3D_Blender_Unity_Animacion_Gratis/06_Perfilado_y_optimizacion/MANUAL.md",
+          "bytes": 680,
+          "sha256": "8da05e80a2cae1d40256e9ebec319356d6b901379607d9f3c6abb529686ec5b0",
+          "canonical": "originals/biblioteca-3d-blender-unity-gratis-1/06_Perfilado_y_optimizacion/MANUAL.md",
+          "duplicate": true
+        },
+        {
+          "path": "Biblioteca_3D_Blender_Unity_Animacion_Gratis/08_Animacion_para_videojuegos/02_CICLOS_Y_ACCIONES.md",
+          "bytes": 1120,
+          "sha256": "acb423582cd95f55854a32de0e4d2e39041b16fbac58d536a46608f9a2528594",
+          "canonical": "originals/biblioteca-blender-unity-animaciones-gratis/08_Animacion_para_videojuegos/02_CICLOS_Y_ACCIONES.md",
+          "duplicate": false
+        },
+        {
+          "path": "Biblioteca_3D_Blender_Unity_Animacion_Gratis/08_Animacion_para_videojuegos/01_RIGGING_SKINNING.md",
+          "bytes": 1153,
+          "sha256": "78d6cb4160a4c4f632503866387c7bf7254c183ce039a4523bd66c768865a3ee",
+          "canonical": "originals/biblioteca-blender-unity-animaciones-gratis/08_Animacion_para_videojuegos/01_RIGGING_SKINNING.md",
+          "duplicate": false
+        },
+        {
+          "path": "Biblioteca_3D_Blender_Unity_Animacion_Gratis/08_Animacion_para_videojuegos/04_MECANIM_BLENDTREES_ROOTMOTION.md",
+          "bytes": 1237,
+          "sha256": "ec73415584c889c6ab733cd32f92b184dbbdfe7ea69a49f1f1efb38e6a4b5049",
+          "canonical": "originals/biblioteca-blender-unity-animaciones-gratis/08_Animacion_para_videojuegos/04_MECANIM_BLENDTREES_ROOTMOTION.md",
+          "duplicate": false
+        },
+        {
+          "path": "Biblioteca_3D_Blender_Unity_Animacion_Gratis/08_Animacion_para_videojuegos/00_INDICE_ANIMACION.md",
+          "bytes": 1903,
+          "sha256": "8c6b5d5312c6f40d0f533e5f8cf6a2cc37eb41d85181a301fa7e02671ecfc187",
+          "canonical": "originals/biblioteca-blender-unity-animaciones-gratis/08_Animacion_para_videojuegos/00_INDICE_ANIMACION.md",
+          "duplicate": false
+        },
+        {
+          "path": "Biblioteca_3D_Blender_Unity_Animacion_Gratis/08_Animacion_para_videojuegos/06_AUTOMATIZACION_PYTHON_MCP.md",
+          "bytes": 1153,
+          "sha256": "2bff98472a9eaa5f3490e778fd09db2fd5be340ccc8341cdf58ae8c245fc4976",
+          "canonical": "originals/biblioteca-blender-unity-animaciones-gratis/08_Animacion_para_videojuegos/06_AUTOMATIZACION_PYTHON_MCP.md",
+          "duplicate": false
+        },
+        {
+          "path": "Biblioteca_3D_Blender_Unity_Animacion_Gratis/08_Animacion_para_videojuegos/05_IK_FACIAL_Y_OPTIMIZACION.md",
+          "bytes": 961,
+          "sha256": "5defe9187b2982d0341abdd2dc2c01ff0eec8af5dc3bef14f0dbaa0ddc6cb20d",
+          "canonical": "originals/biblioteca-blender-unity-animaciones-gratis/08_Animacion_para_videojuegos/05_IK_FACIAL_Y_OPTIMIZACION.md",
+          "duplicate": false
+        },
+        {
+          "path": "Biblioteca_3D_Blender_Unity_Animacion_Gratis/08_Animacion_para_videojuegos/03_EXPORTACION_Y_UNITY.md",
+          "bytes": 1165,
+          "sha256": "f2ba36c98359cbdadedd648bdd40f75883a1c071efdd72e7c5a67386b31c1b7f",
+          "canonical": "originals/biblioteca-blender-unity-animaciones-gratis/08_Animacion_para_videojuegos/03_EXPORTACION_Y_UNITY.md",
+          "duplicate": false
+        },
+        {
+          "path": "Biblioteca_3D_Blender_Unity_Animacion_Gratis/08_Animacion_para_videojuegos/07_CHECKLIST_ANIMACION.md",
+          "bytes": 731,
+          "sha256": "b235986d8617d74f9934483d47e87ec30f5676a5940a6da573b677632376b618",
+          "canonical": "originals/biblioteca-blender-unity-animaciones-gratis/08_Animacion_para_videojuegos/07_CHECKLIST_ANIMACION.md",
+          "duplicate": false
+        },
+        {
+          "path": "Biblioteca_3D_Blender_Unity_Animacion_Gratis/02_UV_texturas_y_baking/MANUAL.md",
+          "bytes": 930,
+          "sha256": "81f5c71830c35c3316595a9a4270bb3e93107a5caaf66ea9f71341ef6d861245",
+          "canonical": "originals/biblioteca-3d-blender-unity-gratis-1/02_UV_texturas_y_baking/MANUAL.md",
+          "duplicate": true
+        },
+        {
+          "path": "Biblioteca_3D_Blender_Unity_Animacion_Gratis/05_Exportacion_Blender_Unity/MANUAL.md",
+          "bytes": 829,
+          "sha256": "557b246baa2ecf0dad37e1b075a9abdcb9417ab94ec1b6fa833d974b8de3e018",
+          "canonical": "originals/biblioteca-3d-blender-unity-gratis-1/05_Exportacion_Blender_Unity/MANUAL.md",
+          "duplicate": true
+        },
+        {
+          "path": "Biblioteca_3D_Blender_Unity_Animacion_Gratis/03_Cursos_y_guias/FUENTES.md",
+          "bytes": 699,
+          "sha256": "ba46e4b54062899f03b24f051b4a4998d6e625c4d93aa35e0e7979deef746f57",
+          "canonical": "originals/biblioteca-3d-blender-unity-gratis-1/03_Cursos_y_guias/FUENTES.md",
+          "duplicate": true
+        },
+        {
+          "path": "Biblioteca_3D_Blender_Unity_Animacion_Gratis/01_Fundamentos_y_topologia/MANUAL.md",
+          "bytes": 916,
+          "sha256": "4eddf3e3657de4e3ae395edd562aacbd440b53e3af6472c153ad5f03a52a3d5c",
+          "canonical": "originals/biblioteca-3d-blender-unity-gratis-1/01_Fundamentos_y_topologia/MANUAL.md",
+          "duplicate": true
+        }
+      ]
+    }
+  ],
+  "total_entries": 46,
+  "unique_documents": 34,
+  "duplicate_entries": 12
+}
