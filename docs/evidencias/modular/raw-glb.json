@@ -1,0 +1,20 @@
+{
+  "file": "cuy-stablegen-modular-original.glb",
+  "sha256": "12f0a0356a7887a2708224bae374fb7593e7ca5a0c96f529cb43ac97348510b4",
+  "bytes": 21161284,
+  "meshes": 1,
+  "mesh_primitives": 1,
+  "exported_vertices_across_primitives": 544887,
+  "triangles": 1218434,
+  "materials": 1,
+  "images": 0,
+  "material_alpha_modes": [
+    "OPAQUE"
+  ],
+  "skins": 0,
+  "joint_counts": [],
+  "morph_names": [],
+  "animations": [],
+  "cameras": 0,
+  "scope": "Structural inspection; no FPS, visual, collision or complete conformance validation"
+}

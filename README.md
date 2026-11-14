@@ -53,6 +53,7 @@ Para una instalación de usuario disponible entre proyectos, instalar la carpeta
 - [Reparación de superficies generadas](docs/reviews/reparacion-superficie-generada.md): volumen sin signo, retopología, materiales y pelaje por etapas con mediciones.
 - [Materiales, complementos y exportación](docs/reviews/materiales-accesorios-y-exportacion.md): base antes de accesorios, sujeción funcional, cuero/tela, ojos, skin y límites comprobados de GLB/LOD.
 - [Expresiones, párpados y pelaje: lecciones verificadas](docs/reviews/expresiones-y-pelaje.md): cobertura ocular, controles independientes y separación entre presentación y juego.
+- [Rig independiente y modular](docs/reviews/cuy-rig-independiente-y-modular.md): lecciones de un personaje con 31 huesos de deformación y seis clips de tres segundos; separar controles, piezas y evidencias de exportación sin incorporar assets de otro juego.
 - [Biblioteca Blender + Unity + Animación](docs/library/README.md): tres ZIP, 46 entradas analizadas, 34 documentos únicos y 33 URLs catalogadas; originales preservados con SHA-256 y duplicados deduplicados. Ver [análisis y límites](docs/library/ANALISIS.md).
 - [Revisión de DESIGN:OS 3D Blender y sus perfiles](docs/reviews/design-os-3d-blender.md): utilidad, ámbitos y licencias; no se copió su implementación.
 
@@ -63,7 +64,10 @@ Para una instalación de usuario disponible entre proyectos, instalar la carpeta
 ```sh
 python scripts/glb_report.py personaje.glb
 blender --background personaje.blend --python scripts/asset_report.py -- --output informe.json
+blender --background --factory-startup --python-exit-code 2 --python scripts/modular_report.py -- --file personaje.glb --output modular.json
 ```
+
+`modular_report.py` inventaría mallas, jerarquía, materiales, morphs y vínculos de armature en el frame actual. Contar objetos separados no acredita independencia semántica, ajuste o rendimiento. El nuevo [ejemplo StableGen modular](examples/stablegen-modular/README.md) completó cinco etapas reales a resolución 512 con INT8/MPS. Tras reparación unsigned y modelado separado de mochila, brote, ojos y herrajes en Blender, el ensamble exploratorio estático tiene 16.952 triángulos. No incorpora rig ni animaciones nuevos. La revisión exploratoria en Blender y tras reimportar el GLB aceptó avanzar: 18 mallas, siete materiales, cero imágenes y 421.076 bytes; el cuerpo quedó cerrado, con cinco tubos abiertos de accesorios aún pendientes de limpieza. No acredita fidelidad exacta o FPS móviles. Los fallos de reparación y límites se registran junto a la evidencia, sin trasladar las cifras del caso articulado anterior.
 
 Python 3 para utilidades externas; Blender para `bpy`. Ejemplo probado con Blender 5.2.3 LTS. No se promete compatibilidad no comprobada.
 

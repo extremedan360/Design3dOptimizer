@@ -1,0 +1,61 @@
+{
+  "estado": "Apto como ejemplo estático modular exploratorio; no producción, rig o rendimiento móvil",
+  "origen": "Base StableGen/TRELLIS.2 nueva; reparación unsigned local y reducción; accesorios, cara complementaria y color por vértices de autoría manual/procedural",
+  "ensamblaje": {
+    "sha256": "a66aec698c380b6f116b944c0468693e6815c1e7e851e0a9207c857d0f200e47",
+    "bytes": 421076,
+    "triangulos": 16952,
+    "vertices_exportados": 8957,
+    "mallas_primitivas": 18,
+    "materiales": 7,
+    "imagenes": 0,
+    "rig": false,
+    "animaciones": false
+  },
+  "modulos": {
+    "cuerpo": {
+      "nodos": 4,
+      "triangulos": 15320,
+      "incluye": "Base IA14.000tri más ojos/nariz manuales"
+    },
+    "mochila": {
+      "nodos": 12,
+      "triangulos": 1584
+    },
+    "brote": {
+      "nodos": 2,
+      "triangulos": 48
+    },
+    "solapamientos_de_nodos": false,
+    "union_exacta_con_ensamblaje": true
+  },
+  "integridad": {
+    "coordenadas_finitas": true,
+    "componentes_despues_weld_posicion_copia_qa": 18,
+    "componentes_cerrados_orientados_correctamente": 13,
+    "componentes_abiertos": [
+      "Asa",
+      "Brote_tallo",
+      "Correa_1",
+      "Correa_-1",
+      "Hebilla"
+    ],
+    "cuerpo_reducido": {
+      "triangulos": 14000,
+      "vertices": 7002,
+      "bordes_abiertos": 0,
+      "bordes_no_manifold": 0,
+      "volumen_firmado": 0.016419993115374166
+    },
+    "weld_solo_copia_qa_tolerancia": 1e-07,
+    "nota": "El weld diagnóstico evita falsos bordes por splits de normales/color glTF; no modifica el recurso original ni certifica datos de shading/UV."
+  },
+  "observacion": "Renders nuevos del GLB reimportado frente/espalda observados, color por vértices/materiales conservados y piezas semánticas separadas; base aislada revisada antes de complementos",
+  "pendientes": [
+    "Banda de unión/superficie y acabado de producción",
+    "Rig, pesos, morphs, expresiones, clips y contactos del recurso NUEVO",
+    "UV/atlas o materiales generados por IA no comprobados en este ejemplo",
+    "Motor/dispositivo, FPS, memoria, batería y draw calls medidos"
+  ],
+  "evidencia": "Inventarios son estáticos al frame actual; número/nombre de objetos no sustituye revisión semántica."
+}

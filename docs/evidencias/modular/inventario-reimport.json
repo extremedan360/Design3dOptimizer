@@ -1,0 +1,317 @@
+{
+  "file": "cuy-stablegen-modular.glb",
+  "sha256": "a66aec698c380b6f116b944c0468693e6815c1e7e851e0a9207c857d0f200e47",
+  "blender": "5.2.3 LTS",
+  "frame": 1,
+  "mesh_objects": 18,
+  "triangles_evaluated": 16952,
+  "objects": [
+    {
+      "name": "Adorno_mochila_hoja",
+      "parent": null,
+      "parent_type": "OBJECT",
+      "parent_bone": "",
+      "collections": [
+        "Scene Collection"
+      ],
+      "vertices_evaluated": 60,
+      "triangles_evaluated": 24,
+      "materials": [
+        "Brote_verde"
+      ],
+      "morphs": [],
+      "armatures": [],
+      "shared_mesh_users": 1
+    },
+    {
+      "name": "Asa",
+      "parent": null,
+      "parent_type": "OBJECT",
+      "parent_bone": "",
+      "collections": [
+        "Scene Collection"
+      ],
+      "vertices_evaluated": 28,
+      "triangles_evaluated": 36,
+      "materials": [
+        "Cuero_marron"
+      ],
+      "morphs": [],
+      "armatures": [],
+      "shared_mesh_users": 1
+    },
+    {
+      "name": "Bolsillo_1",
+      "parent": null,
+      "parent_type": "OBJECT",
+      "parent_bone": "",
+      "collections": [
+        "Scene Collection"
+      ],
+      "vertices_evaluated": 72,
+      "triangles_evaluated": 108,
+      "materials": [
+        "Tela_oliva"
+      ],
+      "morphs": [],
+      "armatures": [],
+      "shared_mesh_users": 1
+    },
+    {
+      "name": "Bolsillo_-1",
+      "parent": null,
+      "parent_type": "OBJECT",
+      "parent_bone": "",
+      "collections": [
+        "Scene Collection"
+      ],
+      "vertices_evaluated": 72,
+      "triangles_evaluated": 108,
+      "materials": [
+        "Tela_oliva"
+      ],
+      "morphs": [],
+      "armatures": [],
+      "shared_mesh_users": 1
+    },
+    {
+      "name": "Bolsillo_solapa_1",
+      "parent": null,
+      "parent_type": "OBJECT",
+      "parent_bone": "",
+      "collections": [
+        "Scene Collection"
+      ],
+      "vertices_evaluated": 72,
+      "triangles_evaluated": 108,
+      "materials": [
+        "Cuero_marron"
+      ],
+      "morphs": [],
+      "armatures": [],
+      "shared_mesh_users": 1
+    },
+    {
+      "name": "Bolsillo_solapa_-1",
+      "parent": null,
+      "parent_type": "OBJECT",
+      "parent_bone": "",
+      "collections": [
+        "Scene Collection"
+      ],
+      "vertices_evaluated": 72,
+      "triangles_evaluated": 108,
+      "materials": [
+        "Cuero_marron"
+      ],
+      "morphs": [],
+      "armatures": [],
+      "shared_mesh_users": 1
+    },
+    {
+      "name": "Brote_hoja",
+      "parent": null,
+      "parent_type": "OBJECT",
+      "parent_bone": "",
+      "collections": [
+        "Scene Collection"
+      ],
+      "vertices_evaluated": 60,
+      "triangles_evaluated": 24,
+      "materials": [
+        "Brote_verde"
+      ],
+      "morphs": [],
+      "armatures": [],
+      "shared_mesh_users": 1
+    },
+    {
+      "name": "Brote_tallo",
+      "parent": null,
+      "parent_type": "OBJECT",
+      "parent_bone": "",
+      "collections": [
+        "Scene Collection"
+      ],
+      "vertices_evaluated": 21,
+      "triangles_evaluated": 24,
+      "materials": [
+        "Brote_verde"
+      ],
+      "morphs": [],
+      "armatures": [],
+      "shared_mesh_users": 1
+    },
+    {
+      "name": "Cierre_frontal",
+      "parent": null,
+      "parent_type": "OBJECT",
+      "parent_bone": "",
+      "collections": [
+        "Scene Collection"
+      ],
+      "vertices_evaluated": 72,
+      "triangles_evaluated": 108,
+      "materials": [
+        "Cuero_marron"
+      ],
+      "morphs": [],
+      "armatures": [],
+      "shared_mesh_users": 1
+    },
+    {
+      "name": "Correa_1",
+      "parent": null,
+      "parent_type": "OBJECT",
+      "parent_bone": "",
+      "collections": [
+        "Scene Collection"
+      ],
+      "vertices_evaluated": 217,
+      "triangles_evaluated": 360,
+      "materials": [
+        "Cuero_marron"
+      ],
+      "morphs": [],
+      "armatures": [],
+      "shared_mesh_users": 1
+    },
+    {
+      "name": "Correa_-1",
+      "parent": null,
+      "parent_type": "OBJECT",
+      "parent_bone": "",
+      "collections": [
+        "Scene Collection"
+      ],
+      "vertices_evaluated": 217,
+      "triangles_evaluated": 360,
+      "materials": [
+        "Cuero_marron"
+      ],
+      "morphs": [],
+      "armatures": [],
+      "shared_mesh_users": 1
+    },
+    {
+      "name": "Cuerpo_StableGen",
+      "parent": null,
+      "parent_type": "OBJECT",
+      "parent_bone": "",
+      "collections": [
+        "Scene Collection"
+      ],
+      "vertices_evaluated": 7002,
+      "triangles_evaluated": 14000,
+      "materials": [
+        "Pelaje_naranja"
+      ],
+      "morphs": [],
+      "armatures": [],
+      "shared_mesh_users": 1
+    },
+    {
+      "name": "Hebilla",
+      "parent": null,
+      "parent_type": "OBJECT",
+      "parent_bone": "",
+      "collections": [
+        "Scene Collection"
+      ],
+      "vertices_evaluated": 35,
+      "triangles_evaluated": 48,
+      "materials": [
+        "Herrajes"
+      ],
+      "morphs": [],
+      "armatures": [],
+      "shared_mesh_users": 1
+    },
+    {
+      "name": "Mochila_cuerpo",
+      "parent": null,
+      "parent_type": "OBJECT",
+      "parent_bone": "",
+      "collections": [
+        "Scene Collection"
+      ],
+      "vertices_evaluated": 72,
+      "triangles_evaluated": 108,
+      "materials": [
+        "Tela_oliva"
+      ],
+      "morphs": [],
+      "armatures": [],
+      "shared_mesh_users": 1
+    },
+    {
+      "name": "Mochila_solapa",
+      "parent": null,
+      "parent_type": "OBJECT",
+      "parent_bone": "",
+      "collections": [
+        "Scene Collection"
+      ],
+      "vertices_evaluated": 72,
+      "triangles_evaluated": 108,
+      "materials": [
+        "Cuero_marron"
+      ],
+      "morphs": [],
+      "armatures": [],
+      "shared_mesh_users": 1
+    },
+    {
+      "name": "Nariz",
+      "parent": null,
+      "parent_type": "OBJECT",
+      "parent_bone": "",
+      "collections": [
+        "Scene Collection"
+      ],
+      "vertices_evaluated": 271,
+      "triangles_evaluated": 440,
+      "materials": [
+        "Nariz_pies_orejas"
+      ],
+      "morphs": [],
+      "armatures": [],
+      "shared_mesh_users": 1
+    },
+    {
+      "name": "Ojo_1",
+      "parent": null,
+      "parent_type": "OBJECT",
+      "parent_bone": "",
+      "collections": [
+        "Scene Collection"
+      ],
+      "vertices_evaluated": 271,
+      "triangles_evaluated": 440,
+      "materials": [
+        "Ojos_negros"
+      ],
+      "morphs": [],
+      "armatures": [],
+      "shared_mesh_users": 1
+    },
+    {
+      "name": "Ojo_-1",
+      "parent": null,
+      "parent_type": "OBJECT",
+      "parent_bone": "",
+      "collections": [
+        "Scene Collection"
+      ],
+      "vertices_evaluated": 271,
+      "triangles_evaluated": 440,
+      "materials": [
+        "Ojos_negros"
+      ],
+      "morphs": [],
+      "armatures": [],
+      "shared_mesh_users": 1
+    }
+  ],
+  "limits": "Inventory at the current frame, including visible and hidden meshes. Does not certify fit, winding, collisions, appearance, engine cost or mobile FPS."
+}

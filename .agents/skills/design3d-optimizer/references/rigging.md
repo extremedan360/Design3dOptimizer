@@ -38,3 +38,11 @@ Mantener orden/conteo de vértices de shape keys. No aplicar remesh/decimate sin
 Bag: oscilación amortiguada desde sujeción y prueba de penetración. Leaf: base fija, punta flexible. Fur: pocas guías, raíces fijas y amplitud corta. El ejemplo integra resortes angulares y hornea claves; no contiene solver general de contactos ni física interactiva de motor.
 
 Antes de entregar: suma de pesos cercana a 1, sin vértices sin peso, jerarquía válida, escala/bind pose correctas. Reimportar clips/morphs y observar ojos cerrados, boca abierta, sonrisa y extremos de patas. Un JSON no sustituye mirar la animación.
+
+## Independencia y contrato de los controles
+
+Al consolidar piezas, inicializar cada target completo desde Basis y modificar solo su región. No heredar una mezcla activa; conservar espacio y orden de vértices. Probar 0/0,5/1 y ambos lados, midiendo que los controles declarados independientes no desplazan la región opuesta. Documentar cualquier acoplamiento intencional, en lugar de aceptarlo por accidente. Los nombres anatómicos o grupos de región ayudan a localizar fallos, pero no demuestran independencia por sí solos.
+
+Validar cierre con poses y extremos reales de mirada, además de neutral. Si el contrato exige globo presente y sin retracción, comprobar que no se oculta ni encoge para simular la cobertura. Otros estilos pueden usar retracción explícita y horneada; no mezclar sus criterios. Clasificar primer impacto de rayos como párpado, cuerpo, globo visible o fallo, y distinguir caras traseras. El cuerpo puede ocluir de forma legítima; los rayos solo complementan renders de vistas pertinentes y mezclas parciales.
+
+Separar huesos deformantes exportados de controles IK/autoría, hornear dependencias y reimportar. Revisar deformación y apoyos en muestras temporales; una cuenta de huesos o cinco poses finitas no prueban contacto continuo. Exportar cada estado lógico con cuerpo y cara sincronizados, no como pistas sueltas por familia de objetos. Ver la [revisión de rig independiente y modular](../../../../docs/reviews/cuy-rig-independiente-y-modular.md) para evidencia y límites.

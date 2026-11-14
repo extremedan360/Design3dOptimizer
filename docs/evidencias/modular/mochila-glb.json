@@ -1,0 +1,23 @@
+{
+  "file": "mochila.glb",
+  "sha256": "26af330aef6cdf85dc62a1cdcf37cbb730ba6492eda3a9d124bf51e1c651ec16",
+  "bytes": 48680,
+  "meshes": 12,
+  "mesh_primitives": 12,
+  "exported_vertices_across_primitives": 1061,
+  "triangles": 1584,
+  "materials": 4,
+  "images": 0,
+  "material_alpha_modes": [
+    "OPAQUE",
+    "OPAQUE",
+    "OPAQUE",
+    "OPAQUE"
+  ],
+  "skins": 0,
+  "joint_counts": [],
+  "morph_names": [],
+  "animations": [],
+  "cameras": 0,
+  "scope": "Structural inspection; no FPS, visual, collision or complete conformance validation"
+}

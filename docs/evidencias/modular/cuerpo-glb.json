@@ -1,0 +1,22 @@
+{
+  "file": "cuerpo.glb",
+  "sha256": "6d50c60fc41db0c2ad8d94b6e3857633fcf03c7d70a5d93ae254f00c49bcf64d",
+  "bytes": 368728,
+  "meshes": 4,
+  "mesh_primitives": 4,
+  "exported_vertices_across_primitives": 7815,
+  "triangles": 15320,
+  "materials": 3,
+  "images": 0,
+  "material_alpha_modes": [
+    "OPAQUE",
+    "OPAQUE",
+    "OPAQUE"
+  ],
+  "skins": 0,
+  "joint_counts": [],
+  "morph_names": [],
+  "animations": [],
+  "cameras": 0,
+  "scope": "Structural inspection; no FPS, visual, collision or complete conformance validation"
+}
