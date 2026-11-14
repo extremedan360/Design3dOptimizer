@@ -76,3 +76,22 @@ Un Player Windows Direct3D11 en RTX 3050 Ti comprobó cuatro mapas 512, dos mate
 Dos builds previos se detuvieron por RAM. Un tercero compiló con Editor sin gráficos en 36,344 s, RAM disponible mínima 2.469.875.712 B y GPU total observada 314 MiB. Esto no es render sin GPU del juego: el Player posterior sí usó gráficos activos, duró 5,937 s, tuvo RAM mínima 5.803.442.176 B y GPU total observada 349 MiB. Según la [documentación primaria de Unity 6000.6](https://docs.unity.com/en-us/engine/6000.6/manual/unity-editor/command-line-arguments/editor), `-nographics` evita inicializar el dispositivo gráfico del Editor y no permite hornear GI que necesite GPU. Usarlo sólo donde corresponda; nunca como evidencia de imagen renderizada.
 
 El Profiler devolvió cero para texturas en ese Player sin Development Build. Es una lectura no válida para cuantificar residencia, no cero VRAM. Las cifras de GPU total incluyen otros procesos y el monitor puede omitir picos entre muestras. Separar estimaciones de almacenamiento, lecturas válidas de recursos y observaciones globales del adaptador.
+
+## Aceptar la muestra antes de derivar mapas
+
+Una inferencia correcta puede producir un material inadecuado. En dos ensayos locales, pedir plástico ABS mate mediante el grafo común SD1.5 de StableGen produjo imágenes válidas, pero ninguna servía como muestra plana para una carcasa pequeña:
+
+| Ensayo | Lectura de la imagen | Decisión artística |
+| --- | --- | --- |
+| Primera petición | Trama direccional semejante a tejido, fibras aparentes y puntos de color. | Rechazar como plástico mate; no derivar albedo o normal. |
+| Petición más explícita | Pieza perforada con huecos y sombras geométricas incorporadas. | Rechazar como swatch: trasladaría agujeros y sombreado de otra pieza al objeto. |
+
+Los dos casos completaron texto, difusión GPU y decode VAE completo CPU en procesos sucesivos; se conservaron los resultados técnicos y los rechazos visuales. No se generaron mapas derivados ni se integraron esas imágenes. La revisión no debe aprobarlas por tener un PNG correcto o una guardia de recursos en verde.
+
+El perfil observado fue SD1.5 FP16, 512×512, lote 1, 20 pasos Euler/normal, CFG 5,5 y semilla 131113, con los mismos pesos. ComfyUI 0.45.0, PyTorch 2.7.1+cu126 y una RTX 3050 Ti de 4.096 MiB. Las seis fases pasaron sus guardias; el máximo de GPU total observado fue 2.259 MiB. En difusión, la RAM disponible mínima fue 3.518.648.320 y 3.821.551.616 bytes, respectivamente. El monitor muestreaba cada 0,75 s más consultas, podía omitir picos y contaba otros procesos en GPU. Esto acredita esos ensayos, no todo StableGen, SDXL o cualquier equipo de 4 GB.
+
+Antes de convertir una referencia, revisar material representado, escala de detalle, direccionalidad, continuidad y sombras incorporadas. Una carcasa pequeña puede leerse mejor con su silueta y un material mate sin mapa que con ruido ajeno a su función o estilo. Documentar esa ausencia deliberada junto al rechazo; no hace falta encadenar inferencias para justificar una textura en cada objeto.
+
+Si ya existe una muestra de madera aceptada, considerar su reutilización antes de generar otra: revisar UV longitudinales, densidad, paleta, mips y resultado en motor. Compartir textura no exige compartir el material mutable; clonar el material del objeto evita alterar otros recursos. No cambiar un importador global para corregir un único consumidor sin revisar los demás.
+
+Una referencia procedural con img2img y denoise bajo sería un experimento posterior: **no se ejecutó aquí ni se validó su memoria**. Una plantilla procedente de StableGen conserva su licencia GPL y no debe presentarse como utilidad original MIT. Esta lección no incorpora esa plantilla, imágenes, pesos, geometría o configuraciones de otro proyecto, ni atribuye a la generación de texturas la autoría de una malla manual.
