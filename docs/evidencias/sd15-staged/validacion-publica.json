@@ -1,0 +1,25 @@
+{
+  "passed": true,
+  "checks": 34,
+  "astFiles": 6,
+  "cliHelpInvocations": 6,
+  "scope": "AST and CLI help plus synthetic split, graph preparation and native-format latent binding",
+  "checksInclude": [
+    "Tensor bytes and F16 retained; original unchanged; wrong hash rejected",
+    "Full decode default matches accepted full decode node; tiled128 differs only by decode node",
+    "Text, diffusion and VAE isolated into separate graphs",
+    "Prompts, seed and sampling parameters preserved",
+    "Generic output prefix and CPU FP32 VAE command",
+    "GPU FP16 text/diffusion command and isolated offline environment",
+    "Latent bytes and native scale marker preserved",
+    "Invalid option, changed seed and overwrite rejected"
+  ],
+  "expectedModelPinInjectedOnlyInTestMemory": true,
+  "heavyExecution": false,
+  "modelLoaded": false,
+  "torchImported": false,
+  "gpuQueried": false,
+  "nativeServerStarted": false,
+  "newInferenceOrRuntimeShutdownApproval": false,
+  "privacy": "No raw logs, local commands, process identifiers, personal paths or model fixtures retained in the package"
+}

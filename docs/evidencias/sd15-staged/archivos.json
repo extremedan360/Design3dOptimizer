@@ -1,0 +1,67 @@
+{
+  "schemaVersion": 1,
+  "scope": "Public staged SD1.5 documentation and utilities; no weights, outputs, caches or private assets",
+  "validation": "Repository check and 34 AST/CLI/synthetic checks passed; no new inference or GPU runtime executed during publication",
+  "files": [
+    {
+      "path": "docs/reviews/integracion-texturas-generadas.md",
+      "sha256": "2f08476ef824dca979d4542af3e4bfc5e731e826f9ec46fa55f1a881d9fdec45",
+      "bytes": 4877
+    },
+    {
+      "path": "docs/evidencias/sd15-staged/resumen.json",
+      "sha256": "54c05798b54cc8a5ea9f547a7aeba2c55059235c7903285e8d8f91b6513548a9",
+      "bytes": 5253
+    },
+    {
+      "path": "docs/evidencias/sd15-staged/source-pins.json",
+      "sha256": "dafbe3635afc9d3437e76f4da65ac9846bfad560b06a94b8ba40d29d1245a3a8",
+      "bytes": 2290
+    },
+    {
+      "path": "docs/evidencias/sd15-staged/validacion-publica.json",
+      "sha256": "e3a6436ca35599d09482949a4986a3d6d70735b0e451a0520dbc17877b1ca9ec",
+      "bytes": 1099
+    },
+    {
+      "path": "examples/stablegen-sd15-staged/baseline.json",
+      "sha256": "e24ea8c931033ad45131bee10cae67adc29414f606ff329d848d3d52ba4985de",
+      "bytes": 1748
+    },
+    {
+      "path": "examples/stablegen-sd15-staged/checkpoint_nodes/__init__.py",
+      "sha256": "c7b345ee81a96ee89a45d02c7b4254ae2f1098c5baa0d98095f295a433a99185",
+      "bytes": 7658
+    },
+    {
+      "path": "examples/stablegen-sd15-staged/prepare_stages.py",
+      "sha256": "27f2c0aa342f96e05e867b2b5765e4229ca4595b037a8ea4cf336a42a27d86ac",
+      "bytes": 8546
+    },
+    {
+      "path": "examples/stablegen-sd15-staged/README.md",
+      "sha256": "4ba65a0641415a06fbff362347969544bcca2b9e7eb48de3d545de3405c80502",
+      "bytes": 5572
+    },
+    {
+      "path": "examples/stablegen-sd15-staged/run_guard.py",
+      "sha256": "3186f267653a9344185ad48414d0b4af37aa2371b72d1f50720c3d5896b62260",
+      "bytes": 3610
+    },
+    {
+      "path": "examples/stablegen-sd15-staged/run_phase.py",
+      "sha256": "1f76cee324eb548ec07a70e15590fe0f4506efebc45008e1686203b82a867e36",
+      "bytes": 4951
+    },
+    {
+      "path": "examples/stablegen-sd15-staged/split_checkpoint.py",
+      "sha256": "0177ee8a46cc066451c20b8921942099fb88244552ab8f31dcd918cfc7595d8d",
+      "bytes": 8007
+    },
+    {
+      "path": "examples/stablegen-sd15-staged/tests/check_public.py",
+      "sha256": "c726146a8f87fe2d3ff402ce2069bb51e04920cbdd57d87be17d2e37b5d2fb83",
+      "bytes": 6686
+    }
+  ]
+}

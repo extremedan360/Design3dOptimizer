@@ -51,6 +51,7 @@ Para una instalación de usuario disponible entre proyectos, instalar la carpeta
 
 - [TRELLIS.2 por etapas en 4 GB](docs/reviews/stablegen-trellis2-4gb.md): inferencia local verificada y límites de topología/calidad.
 - [Reparación de superficies generadas](docs/reviews/reparacion-superficie-generada.md): volumen sin signo, retopología, materiales y pelaje por etapas con mediciones.
+- [Integración de texturas generadas](docs/reviews/integracion-texturas-generadas.md): autoridad visual tras el arranque, texturas de autor y paleta; diagnóstico de RAM/VRAM y carga de SD1.5 por componentes, con pruebas por etapas y límites documentados.
 - [Materiales, complementos y exportación](docs/reviews/materiales-accesorios-y-exportacion.md): base antes de accesorios, sujeción funcional, cuero/tela, ojos, skin y límites comprobados de GLB/LOD.
 - [Expresiones, párpados y pelaje: lecciones verificadas](docs/reviews/expresiones-y-pelaje.md): cobertura ocular, controles independientes y separación entre presentación y juego.
 - [Rig independiente y modular](docs/reviews/cuy-rig-independiente-y-modular.md): lecciones de un personaje con 31 huesos de deformación y seis clips de tres segundos; separar controles, piezas y evidencias de exportación sin incorporar assets de otro juego.

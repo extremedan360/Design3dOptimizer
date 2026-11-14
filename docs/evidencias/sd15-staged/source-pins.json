@@ -1,0 +1,33 @@
+{
+  "scope": "Publication handoff; sanitized source identifiers, no raw logs or private paths",
+  "modelSourceSha256": "e9476a13728cd75d8279f6ec8bad753a66a1957ca375a1464dc63b37db6e3916",
+  "latentSha256": "327a9ac5f3fb32755d21119456af95d62364482195fa087cc7effbcfde244839",
+  "splitReceiptSha256": "1595a85c646ea89bd2f43525110f299391c253debe6fa05108fc3e4e7b23ea2b",
+  "stablegen": {
+    "repository": "https://github.com/sakalond/StableGen",
+    "license": "GPL-3.0",
+    "revision": "68f2d165fdcdead669d322a86e6dc39887381354"
+  },
+  "comfyRevision": "c1eece62cbf1805d4f64286d7f5592e6a215e6ba",
+  "comfySourceHashes": {
+    "nodes.py": "dedb13a8dd56e8396646f29dcf4c1070dde1b3560f4d00604a77addab544ad51",
+    "comfy/sd.py": "fb3da5c8211add184b7ab652c6c4dd4b96dbfac80af4aaae3af9109f3f1a8dbd",
+    "comfy/sd1_clip.py": "02840bea124088477f7a5e071f1d4e0150ffc115b31864ddab9c5f130a40cb88",
+    "comfy/clip_model.py": "d5e6277d15f6a8d7ed824692166be5e751592780a71246daaa7476842b0071e4",
+    "comfy/supported_models.py": "5a491f1a890352092182bb8ee9ba63663676bcbf03dd2dfb782d8aea8b9b777d"
+  },
+  "sourceDocumentsSha256": {
+    "integrationDraft": "f6c91237ecd5ce2cddab76d3c430e41c4767bccd8d7ee730dfc581d1a85ecae3",
+    "stagedPlan": "242f82b33dc2a72ff7477e7429cecac72d6ca101dff358ada16bea8550eb971b",
+    "preparationManifest": "cc140751eeda0ad798e5a2039220ee6ccb49aed52a4b48012512c727e7b225fb",
+    "textResourceReport": "532c59208b29e76753a927d93b846414b3442ad1ba9f8650164d64826f6e858f",
+    "samplingResourceReport": "79886452e49ec794108f0b48f786c6b4147e1cbe65ca4ec9db4b7645b419a8e8",
+    "tiledResourceReport": "50f86cb6d898ef449da5e68723d3c024490d5e465542ed504a7ebce17db6f11e",
+    "fullResourceReport": "4161ff980232c37cb97b35093282c7297b56a0709af7702a7f2b18092ea07c61",
+    "closureAudit": "f2d4b52833e7fd6d9983b972b77887ad04bef529db057920becf8f82dc6d9a86"
+  },
+  "originalCustomCachePluginSha256": "c7b345ee81a96ee89a45d02c7b4254ae2f1098c5baa0d98095f295a433a99185",
+  "publicScripts": "examples/stablegen-sd15-staged; hashes públicos en docs/evidencias/sd15-staged/archivos.json",
+  "warningScope": "Only missing text_projection in the inspected SD1.5 save/load path was explained; other missing/unexpected keys remain review items",
+  "publicDocumentationNoGlobalSkillUpdateImplied": true
+}

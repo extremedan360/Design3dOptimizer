@@ -1,0 +1,175 @@
+{
+  "schemaVersion": 1,
+  "reviewDate": "2026-11-13",
+  "scope": "Sanitized scalar evidence; staged SD1.5 graph, not full StableGen panel",
+  "environment": {
+    "os": "Windows",
+    "python": "3.12",
+    "comfyVersion": "0.45.0",
+    "comfyRevision": "c1eece62cbf1805d4f64286d7f5592e6a215e6ba",
+    "torch": "2.7.1+cu126",
+    "nvidiaDriver": "566.36",
+    "gpu": "RTX 3050 Ti",
+    "gpuMiB": 4096,
+    "systemRamGBNominal": 16,
+    "minimumRequirementsCertified": false
+  },
+  "model": {
+    "family": "SD1.5",
+    "source": "Comfy-Org/stable-diffusion-1.5",
+    "sourceRevision": "9cfd069101959ca3828bf9c04a4419870832b74f",
+    "sourceSha256": "e9476a13728cd75d8279f6ec8bad753a66a1957ca375a1464dc63b37db6e3916",
+    "license": "CreativeML OpenRAIL-M",
+    "sourceUnchanged": true,
+    "splitTensorBytesVerified": true,
+    "diskDtype": "F16",
+    "trainingPerformed": false,
+    "quantizationPerformed": false,
+    "tensorCounts": {
+      "total": 1145,
+      "text": 197,
+      "diffusion": 686,
+      "vae": 248,
+      "preservedAuxiliary": 14
+    }
+  },
+  "generation": {
+    "width": 512,
+    "height": 512,
+    "batch": 1,
+    "seed": 131113,
+    "steps": 20,
+    "cfg": 5.5,
+    "sampler": "euler",
+    "scheduler": "normal",
+    "denoise": 1.0
+  },
+  "guard": {
+    "minimumAvailableRamBytes": 2147483648,
+    "maximumWholeGpuMiB": 3600,
+    "samplingIntervalDescription": "0.75s delay plus query overhead",
+    "limitations": "Sampled guard, not a hard allocation cap; short peaks may be missed; whole GPU includes unrelated workloads"
+  },
+  "monolithicAttempts": [
+    {
+      "mode": "standard",
+      "secondsUntilStop": 19.78,
+      "peakWholeGpuMiBObserved": 2069,
+      "minimumAvailableRamMiBObserved": 1759,
+      "resourcePass": false,
+      "completeImage": false,
+      "stopReason": "RAM guard"
+    },
+    {
+      "mode": "after freeing RAM",
+      "secondsUntilStop": 13.44,
+      "peakWholeGpuMiBObserved": 400,
+      "minimumAvailableRamMiBObserved": 2004,
+      "resourcePass": false,
+      "completeImage": false,
+      "stopReason": "RAM guard"
+    },
+    {
+      "mode": "disk-backed dynamic loading",
+      "secondsUntilStop": 12.52,
+      "peakWholeGpuMiBObserved": 400,
+      "minimumAvailableRamMiBObserved": 1292,
+      "resourcePass": false,
+      "completeImage": false,
+      "stopReason": "RAM guard"
+    }
+  ],
+  "stages": [
+    {
+      "stage": "text",
+      "device": "GPU",
+      "technicalPass": true,
+      "resourcePass": true,
+      "hostSeconds": 15.703,
+      "peakWholeGpuMiBObserved": 722,
+      "minimumAvailableRamBytesObserved": 4264177664
+    },
+    {
+      "stage": "sampling",
+      "device": "GPU",
+      "technicalPass": true,
+      "resourcePass": true,
+      "hostSeconds": 18.516,
+      "peakWholeGpuMiBObserved": 2259,
+      "minimumAvailableRamBytesObserved": 3949715456
+    },
+    {
+      "stage": "vae-tiled",
+      "device": "CPU",
+      "tileImagePixels": 128,
+      "overlapImagePixels": 32,
+      "technicalPass": true,
+      "resourcePass": true,
+      "hostSeconds": 60.329,
+      "peakWholeGpuMiBObserved": 314,
+      "minimumAvailableRamBytesObserved": 4379430912,
+      "imageAccepted": false,
+      "visualFinding": "Visible discontinuities"
+    },
+    {
+      "stage": "vae-full",
+      "device": "CPU",
+      "technicalPass": true,
+      "resourcePass": true,
+      "hostSeconds": 19.0,
+      "peakWholeGpuMiBObserved": 314,
+      "minimumAvailableRamBytesObserved": 3876208640,
+      "imageAccepted": true,
+      "visualFinding": "First acceptable texture; observed mosaic artifacts absent",
+      "visualEvidenceBasis": "Coordinator review, not independently repeated by documentation author"
+    }
+  ],
+  "decodeComparison": {
+    "sameLatent": true,
+    "latentSha256": "327a9ac5f3fb32755d21119456af95d62364482195fa087cc7effbcfde244839",
+    "resampling": false,
+    "reseed": false,
+    "nativeScaleMarkerPreserved": true,
+    "safetensorsCpuTyped": true,
+    "pickleUsed": false
+  },
+  "closure": {
+    "initialTextAndSamplingClosureFlags": false,
+    "reason": "Launcher did not wait for child at the original observation window",
+    "subsequentAuditAllRecordedOwnedProcessesClosed": true,
+    "originalFlagsPreserved": true,
+    "stage3ClosureFlag": true,
+    "runnerWaitCorrected": true,
+    "inferenceRepeatedForClosureAudit": false
+  },
+  "editorIntegrationReportedByCoordinator": {
+    "playObserved": true,
+    "dayAndNight": true,
+    "renderers": 3,
+    "triangles": 2860,
+    "authoredMapSurvivedStartupAndStyleApplication": true,
+    "seatSurfaceMeters": 0.62,
+    "allBodyInteractionsApproved": false,
+    "pbrNormalsApproved": false,
+    "performanceApproved": false,
+    "derivedNormalsImprovement": "Prepared, not executed"
+  },
+  "notEstablished": [
+    "Full StableGen panel",
+    "SDXL",
+    "Multiview projection",
+    "Final game acceptance",
+    "Guaranteed success on any4GB GPU",
+    "Physically measured PBR from generated color texture"
+  ],
+  "redistribution": {
+    "weightsIncluded": false,
+    "imagesIncluded": false,
+    "privateProjectDataIncluded": false
+  },
+  "stablegenSource": {
+    "repository": "https://github.com/sakalond/StableGen",
+    "revision": "68f2d165fdcdead669d322a86e6dc39887381354",
+    "license": "GPL-3.0"
+  }
+}
