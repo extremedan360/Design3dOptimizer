@@ -99,3 +99,7 @@ Una referencia procedural con img2img y denoise bajo sería un experimento poste
 ## UV y normales al reutilizar una textura
 
 La [guía de UV longitudinales, materiales compartidos y normales verificables](uv-materiales-normales.md) explica cómo conservar paleta y desgaste, medir densidad sobre los datos exportados y diagnosticar una discrepancia de normales antes de atribuirla al guardado. Incluye un helper original con cuatro pruebas sintéticas; sus límites medidos son específicos del caso y no sustituyen revisión visual o pruebas en motor.
+
+## Mallas compartidas y evidencia de contacto
+
+La [guía de mallas compartidas y evidencia corporal](mallas-compartidas-evidencia-corporal.md) distingue recursos únicos de sumas por renderer, restauración, captura y autoridad de transformaciones. Incluye límites de las contrapruebas geométricas y del alcance: completar una secuencia dirigida no aprueba piel, postura o contactos.
