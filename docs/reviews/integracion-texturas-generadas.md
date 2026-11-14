@@ -95,3 +95,7 @@ Antes de convertir una referencia, revisar material representado, escala de deta
 Si ya existe una muestra de madera aceptada, considerar su reutilización antes de generar otra: revisar UV longitudinales, densidad, paleta, mips y resultado en motor. Compartir textura no exige compartir el material mutable; clonar el material del objeto evita alterar otros recursos. No cambiar un importador global para corregir un único consumidor sin revisar los demás.
 
 Una referencia procedural con img2img y denoise bajo sería un experimento posterior: **no se ejecutó aquí ni se validó su memoria**. Una plantilla procedente de StableGen conserva su licencia GPL y no debe presentarse como utilidad original MIT. Esta lección no incorpora esa plantilla, imágenes, pesos, geometría o configuraciones de otro proyecto, ni atribuye a la generación de texturas la autoría de una malla manual.
+
+## UV y normales al reutilizar una textura
+
+La [guía de UV longitudinales, materiales compartidos y normales verificables](uv-materiales-normales.md) explica cómo conservar paleta y desgaste, medir densidad sobre los datos exportados y diagnosticar una discrepancia de normales antes de atribuirla al guardado. Incluye un helper original con cuatro pruebas sintéticas; sus límites medidos son específicos del caso y no sustituyen revisión visual o pruebas en motor.
