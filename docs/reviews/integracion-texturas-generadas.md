@@ -103,3 +103,7 @@ La [guía de UV longitudinales, materiales compartidos y normales verificables](
 ## Mallas compartidas y evidencia de contacto
 
 La [guía de mallas compartidas y evidencia corporal](mallas-compartidas-evidencia-corporal.md) distingue recursos únicos de sumas por renderer, restauración, captura y autoridad de transformaciones. Incluye límites de las contrapruebas geométricas y del alcance: completar una secuencia dirigida no aprueba piel, postura o contactos.
+
+## Argumentos de arranque y dependencias del Editor
+
+La [lección sobre límites de `-noUpm` con URP](limites-no-upm-urp.md) conserva un ensayo rechazado antes de Play y distingue grafo de paquetes, DLL generadas y recuperación verificable. Una salida temprana no demuestra ahorro de memoria ni una prueba nativa aprobada.
