@@ -119,4 +119,4 @@ En la fuente y una copia QA del reimportado con weld posicional 1e-7, el cuerpo 
 
 La unión/superficie corporal y el acabado siguen siendo exploratorios. No hay nuevos seis clips, pesos, expresiones, contactos, UV/atlas de imagen o física interactiva comprobados. Tampoco medición de draw calls, FPS/memoria/batería en motor/teléfono. No trasladar aquí las cifras de 31 huesos, 51 componentes o 96 conjuntos de oclusión del caso manual anterior.
 
-[Evidencia saneada y previews reales de reimportación](../evidencias/modular/README.md). Estos resultados validan la etapa estática modular, no finalización de todas las etapas del pipeline.
+[Resumen saneado](../evidencias/modular/resumen-qa.json), [frente reimportado](../evidencias/modular/reimport-frente.png) y [espalda reimportada](../evidencias/modular/reimport-espalda.png). Validan la etapa estática modular, no todas las etapas del pipeline.
